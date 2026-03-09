@@ -3,13 +3,17 @@
 import itertools
 import numpy as np
 import pandas as pd
+import yaml
 from pathlib import Path
 
 from .features import MORAL_FEATURES, DilemmaItem, DELTA_FEATURE_NAMES
 
-SEED = 42
-N_CANDIDATES = 200
-TEMPLATE_FAMILIES = ["rescue_triage", "policy_prevention", "direct_harm_tradeoff"]
+CONFIG_PATH = Path(__file__).parent.parent / "configs" / "pilot.yaml"
+
+
+def _load_config() -> dict:
+    with open(CONFIG_PATH) as f:
+        return yaml.safe_load(f)
 
 
 def _is_valid_combination(a: dict, b: dict) -> bool:
@@ -26,9 +30,18 @@ def _is_valid_combination(a: dict, b: dict) -> bool:
 
 
 def generate_candidate_rows(
-    n: int = N_CANDIDATES, seed: int = SEED
+    n: int | None = None, seed: int | None = None
 ) -> pd.DataFrame:
-    """Generate n candidate dilemma feature rows by sampling option pairs."""
+    """Generate n candidate dilemma feature rows by sampling option pairs.
+
+    Reads defaults from pilot.yaml config if not provided.
+    """
+    config = _load_config()
+    if n is None:
+        n = config["design_matrix"]["n_candidates"]
+    if seed is None:
+        seed = config["design_matrix"]["seed"]
+
     rng = np.random.default_rng(seed)
 
     feature_names = list(MORAL_FEATURES.keys())
@@ -52,7 +65,8 @@ def generate_candidate_rows(
         if not _is_valid_combination(a, b):
             continue
 
-        family = TEMPLATE_FAMILIES[len(rows) % len(TEMPLATE_FAMILIES)]
+        template_families = config["template_families"]
+        family = template_families[len(rows) % len(template_families)]
         order = "AB" if rng.random() < 0.5 else "BA"
 
         item = DilemmaItem(

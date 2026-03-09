@@ -86,7 +86,11 @@ def compare_conditions(results: dict[str, dict]) -> None:
 
 
 def analyze_position_effects(df: pd.DataFrame, label: str) -> None:
-    """Check for position effects in sequential runs."""
+    """Check for position effects in sequential runs.
+
+    Measures whether later items become more compressible (lower log loss
+    under a fitted model), not just whether the A/B rate shifts.
+    """
     if "position" not in df.columns:
         return
 
@@ -104,6 +108,45 @@ def analyze_position_effects(df: pd.DataFrame, label: str) -> None:
 
     print(f"  Early items (pos 0-{mid-1}): chose A = {early['chose_A'].mean():.3f} (n={len(early)})")
     print(f"  Late items (pos {mid}-{len(valid)-1}): chose A = {late['chose_A'].mean():.3f} (n={len(late)})")
+
+    # Position-conditioned compressibility: fit model on early, measure log loss on late
+    from .models import prepare_Xy, fit_logistic
+    from .features import DELTA_FEATURE_NAMES
+
+    feature_cols = [c for c in DELTA_FEATURE_NAMES if c in valid.columns]
+    if not feature_cols:
+        return
+
+    X_early = early[feature_cols].values.astype(float)
+    y_early = early["chose_A"].values
+    X_late = late[feature_cols].values.astype(float)
+    y_late = late["chose_A"].values
+
+    if len(np.unique(y_early)) < 2 or len(np.unique(y_late)) < 2:
+        print("  [skipped] Not enough class variation for position analysis")
+        return
+
+    # Fit on early items, predict on late items
+    from sklearn.pipeline import Pipeline
+    from sklearn.preprocessing import StandardScaler
+    from sklearn.linear_model import LogisticRegression
+    from sklearn.metrics import log_loss, accuracy_score
+
+    pipe = Pipeline([
+        ("scaler", StandardScaler()),
+        ("lr", LogisticRegression(penalty="l1", solver="saga", max_iter=5000, random_state=42)),
+    ])
+    pipe.fit(X_early, y_early)
+
+    late_pred_proba = pipe.predict_proba(X_late)
+    late_pred = pipe.predict(X_late)
+
+    late_ll = log_loss(y_late, late_pred_proba)
+    late_acc = accuracy_score(y_late, late_pred)
+
+    print(f"\n  Compressibility by position (model trained on early, tested on late):")
+    print(f"    Late-item accuracy: {late_acc:.3f}")
+    print(f"    Late-item log loss: {late_ll:.3f}")
 
     # Correlation of position with choice
     corr = valid["position"].corr(valid["chose_A"])
