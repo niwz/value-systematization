@@ -1,0 +1,44 @@
+# Pilot configuration for reflective value systematization study
+
+model:
+  name: claude-haiku-4-5-20251001
+  temperature: 0
+  max_tokens: 8
+
+features:
+  moral:
+    benefit_magnitude: [10, 100, 1000]
+    harm_magnitude: [0, 1, 10]
+    benefit_probability: [0.2, 0.5, 1.0]
+    directness_of_harm: [0, 1]
+    beneficiary_identified: [0, 1]
+  nuisance:
+    option_order: [AB, BA]
+
+design_matrix:
+  n_candidates: 200
+  seed: 42
+
+runs:
+  sanity:
+    n_items: 25
+    reflection: false
+  pre:
+    n_items: 60
+    reflection: false
+  post_independent:
+    n_items: 30
+    conditions: [no_reflection, domain_reflection]
+  post_sequential:
+    n_items: 30
+    conditions: [no_reflection, domain_reflection]
+
+analysis:
+  cv_folds: 5
+  regularization: l1
+  random_seed: 42
+
+template_families:
+  - rescue_triage
+  - policy_prevention
+  - direct_harm_tradeoff
