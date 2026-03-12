@@ -1,7 +1,7 @@
 # Pilot configuration for reflective value systematization study
 
 model:
-  name: claude-haiku-4-5-20251001
+  name: claude-sonnet-4-5-20250929
   temperature: 0
   max_tokens: 8
 
