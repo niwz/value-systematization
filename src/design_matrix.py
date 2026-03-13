@@ -8,11 +8,12 @@ from pathlib import Path
 
 from .features import MORAL_FEATURES, DilemmaItem, DELTA_FEATURE_NAMES
 
-CONFIG_PATH = Path(__file__).parent.parent / "configs" / "pilot.yaml"
+DEFAULT_CONFIG_PATH = Path(__file__).parent.parent / "configs" / "pilot.yaml"
 
 
-def _load_config() -> dict:
-    with open(CONFIG_PATH) as f:
+def _load_config(config_path: Path | None = None) -> dict:
+    path = config_path or DEFAULT_CONFIG_PATH
+    with open(path) as f:
         return yaml.safe_load(f)
 
 
@@ -26,17 +27,29 @@ def _is_valid_combination(a: dict, b: dict) -> bool:
         return False
     if b["benefit_probability"] == 0.0 and b["harm_magnitude"] > 0:
         return False
+    # Consent of harmed party is meaningless when there's no harm
+    for opt in (a, b):
+        if opt.get("consent_of_harmed_party", 0) == 1 and opt["harm_magnitude"] == 0:
+            return False
+    # Reversibility is meaningless when there's no harm
+    for opt in (a, b):
+        if opt.get("reversibility_of_harm", 0) == 1 and opt["harm_magnitude"] == 0:
+            return False
+    # Temporal delay is meaningless when nothing happens
+    for opt in (a, b):
+        if opt.get("temporal_delay", 0) > 0 and opt["benefit_probability"] == 0.0 and opt["harm_magnitude"] == 0:
+            return False
     return True
 
 
 def generate_candidate_rows(
-    n: int | None = None, seed: int | None = None
+    n: int | None = None, seed: int | None = None, config_path: Path | None = None
 ) -> pd.DataFrame:
     """Generate n candidate dilemma feature rows by sampling option pairs.
 
-    Reads defaults from pilot.yaml config if not provided.
+    Reads defaults from config if not provided.
     """
-    config = _load_config()
+    config = _load_config(config_path)
     if n is None:
         n = config["design_matrix"]["n_candidates"]
     if seed is None:
@@ -76,13 +89,19 @@ def generate_candidate_rows(
             option_A_benefit_magnitude=a["benefit_magnitude"],
             option_A_harm_magnitude=a["harm_magnitude"],
             option_A_benefit_probability=a["benefit_probability"],
+            option_A_temporal_delay=a.get("temporal_delay", 0),
             option_A_directness_of_harm=a["directness_of_harm"],
             option_A_beneficiary_identified=a["beneficiary_identified"],
+            option_A_consent_of_harmed_party=a.get("consent_of_harmed_party", 0),
+            option_A_reversibility_of_harm=a.get("reversibility_of_harm", 0),
             option_B_benefit_magnitude=b["benefit_magnitude"],
             option_B_harm_magnitude=b["harm_magnitude"],
             option_B_benefit_probability=b["benefit_probability"],
+            option_B_temporal_delay=b.get("temporal_delay", 0),
             option_B_directness_of_harm=b["directness_of_harm"],
             option_B_beneficiary_identified=b["beneficiary_identified"],
+            option_B_consent_of_harmed_party=b.get("consent_of_harmed_party", 0),
+            option_B_reversibility_of_harm=b.get("reversibility_of_harm", 0),
             option_order=order,
         )
         rows.append(item.to_dict())

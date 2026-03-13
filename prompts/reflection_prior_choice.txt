@@ -1,0 +1,5 @@
+Here are moral dilemmas you previously answered:
+
+{prior_choices}
+
+Apply the principles reflected in your prior choices consistently to the following dilemma.

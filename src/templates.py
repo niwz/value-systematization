@@ -48,15 +48,63 @@ def _describe_beneficiary(identified: int) -> str:
     return "identified individuals" if identified else "statistical individuals"
 
 
-def _describe_harm(harm_mag: float, direct: int) -> str:
+def _describe_harm(harm_mag: float, direct: int, reversibility: int = 0, consent: int = 0) -> str:
     if harm_mag == 0:
         return "no direct harm to anyone"
     harm_word = "significant" if harm_mag >= 10 else "minor"
     directness = "directly" if direct else "indirectly"
-    return f"{harm_word} harm {directness} caused to others"
+    parts = [f"{harm_word} harm {directness} caused to others"]
+    if consent:
+        parts.append("with the consent of those affected")
+    else:
+        parts.append("without their consent")
+    if reversibility:
+        parts.append("though the effects are reversible")
+    else:
+        parts.append("and the effects are irreversible")
+    return ", ".join(parts)
+
+
+def _describe_temporal_delay(d: int) -> str:
+    if d == 0:
+        return "immediately"
+    if d <= 10:
+        return f"over {d} years"
+    return f"over {d} years"
 
 
 # --- Template family: Rescue / Triage ---
+
+def _render_option(prefix: str, row: dict, action_verb: str) -> str:
+    """Render a single option with natural clause grouping."""
+    mag = row[f'{prefix}_benefit_magnitude']
+    ben = row[f'{prefix}_beneficiary_identified']
+    prob = row[f'{prefix}_benefit_probability']
+    harm = row[f'{prefix}_harm_magnitude']
+    direct = row[f'{prefix}_directness_of_harm']
+    consent = row.get(f'{prefix}_consent_of_harmed_party', 0)
+    reversibility = row.get(f'{prefix}_reversibility_of_harm', 0)
+    delay = row.get(f'{prefix}_temporal_delay', 0)
+
+    # Clause 1: benefit + beneficiary + probability
+    clause1 = (
+        f"{action_verb} {_describe_magnitude(mag)} "
+        f"{_describe_beneficiary(ben)} "
+        f"{_describe_probability(prob)}"
+    )
+
+    # Clause 2: harm description
+    clause2 = f"with {_describe_harm(harm, direct, reversibility, consent)}"
+
+    # Clause 3: temporal framing
+    temporal = _describe_temporal_delay(delay)
+    if delay == 0:
+        clause3 = "Effects occur immediately."
+    else:
+        clause3 = f"Effects unfold {temporal}."
+
+    return f"{clause1}, {clause2}. {clause3}"
+
 
 def render_rescue_triage(row: dict) -> RenderedDilemma:
     """Rescue/triage scenario: choosing between saving different groups."""
@@ -65,19 +113,8 @@ def render_rescue_triage(row: dict) -> RenderedDilemma:
         "how to allocate limited rescue resources."
     )
 
-    option_a = (
-        f"Deploy resources to save {_describe_magnitude(row['option_A_benefit_magnitude'])} "
-        f"{_describe_beneficiary(row['option_A_beneficiary_identified'])} "
-        f"{_describe_probability(row['option_A_benefit_probability'])}, "
-        f"with {_describe_harm(row['option_A_harm_magnitude'], row['option_A_directness_of_harm'])}."
-    )
-
-    option_b = (
-        f"Deploy resources to save {_describe_magnitude(row['option_B_benefit_magnitude'])} "
-        f"{_describe_beneficiary(row['option_B_beneficiary_identified'])} "
-        f"{_describe_probability(row['option_B_benefit_probability'])}, "
-        f"with {_describe_harm(row['option_B_harm_magnitude'], row['option_B_directness_of_harm'])}."
-    )
+    option_a = _render_option("option_A", row, "Deploy resources to save")
+    option_b = _render_option("option_B", row, "Deploy resources to save")
 
     return RenderedDilemma(scenario=scenario, option_a_text=option_a, option_b_text=option_b)
 
@@ -91,21 +128,8 @@ def render_policy_prevention(row: dict) -> RenderedDilemma:
         "to address a public health crisis. Budget constraints allow only one."
     )
 
-    option_a = (
-        f"Fund Program Alpha, which will benefit "
-        f"{_describe_magnitude(row['option_A_benefit_magnitude'])} "
-        f"{_describe_beneficiary(row['option_A_beneficiary_identified'])} "
-        f"{_describe_probability(row['option_A_benefit_probability'])}, "
-        f"with {_describe_harm(row['option_A_harm_magnitude'], row['option_A_directness_of_harm'])}."
-    )
-
-    option_b = (
-        f"Fund Program Beta, which will benefit "
-        f"{_describe_magnitude(row['option_B_benefit_magnitude'])} "
-        f"{_describe_beneficiary(row['option_B_beneficiary_identified'])} "
-        f"{_describe_probability(row['option_B_benefit_probability'])}, "
-        f"with {_describe_harm(row['option_B_harm_magnitude'], row['option_B_directness_of_harm'])}."
-    )
+    option_a = _render_option("option_A", row, "Fund Program Alpha, which will benefit")
+    option_b = _render_option("option_B", row, "Fund Program Beta, which will benefit")
 
     return RenderedDilemma(scenario=scenario, option_a_text=option_a, option_b_text=option_b)
 
@@ -119,21 +143,8 @@ def render_direct_harm_tradeoff(row: dict) -> RenderedDilemma:
         "may require accepting some harm. Two courses of action are available."
     )
 
-    option_a = (
-        f"Take action that helps "
-        f"{_describe_magnitude(row['option_A_benefit_magnitude'])} "
-        f"{_describe_beneficiary(row['option_A_beneficiary_identified'])} "
-        f"{_describe_probability(row['option_A_benefit_probability'])}, "
-        f"with {_describe_harm(row['option_A_harm_magnitude'], row['option_A_directness_of_harm'])}."
-    )
-
-    option_b = (
-        f"Take action that helps "
-        f"{_describe_magnitude(row['option_B_benefit_magnitude'])} "
-        f"{_describe_beneficiary(row['option_B_beneficiary_identified'])} "
-        f"{_describe_probability(row['option_B_benefit_probability'])}, "
-        f"with {_describe_harm(row['option_B_harm_magnitude'], row['option_B_directness_of_harm'])}."
-    )
+    option_a = _render_option("option_A", row, "Take action that helps")
+    option_b = _render_option("option_B", row, "Take action that helps")
 
     return RenderedDilemma(scenario=scenario, option_a_text=option_a, option_b_text=option_b)
 
