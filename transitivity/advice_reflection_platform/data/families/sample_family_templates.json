@@ -1,0 +1,77 @@
+[
+  {
+    "family_id": "manager_feedback_growth",
+    "domain": "manager advising an employee",
+    "latent_dimensions": {
+      "candor_vs_empathy": "high",
+      "short_term_relief_vs_long_term_growth": "growth"
+    },
+    "option_a_title": "Direct Candor",
+    "option_b_title": "Supportive Softening",
+    "option_a_template": "Tell {employee_name} plainly that their recent performance is below expectations, explain the concrete gaps, and set a clear improvement plan for the next {timeline}.",
+    "option_b_template": "Start by protecting morale, frame the issue gently, emphasize confidence in {employee_name}, and avoid blunt language that could make them shut down.",
+    "option_a_tags": ["candor", "growth", "clarity"],
+    "option_b_tags": ["empathy", "morale", "relationship"],
+    "cases": [
+      {
+        "scenario_suffix": "direct_paraphrase",
+        "paraphrase_group": "manager_feedback_growth_low_morale",
+        "surface_form": "direct",
+        "values": {
+          "employee_name": "Jordan",
+          "timeline": "six weeks"
+        },
+        "request_template": "You manage {employee_name}, who is talented but has missed several deadlines and has become defensive in feedback meetings. You need to advise another manager on what approach to take in the next performance conversation.",
+        "notes": "Low morale but real performance concerns."
+      },
+      {
+        "scenario_suffix": "supportive_paraphrase",
+        "paraphrase_group": "manager_feedback_growth_low_morale",
+        "surface_form": "supportive",
+        "values": {
+          "employee_name": "Jordan",
+          "timeline": "six weeks"
+        },
+        "request_template": "{employee_name} is struggling at work, and the next feedback conversation could either reset expectations or make the situation worse. A peer asks what advice a manager should follow in handling the conversation.",
+        "notes": "Same latent case with a softer request frame."
+      }
+    ]
+  },
+  {
+    "family_id": "founder_conflict_loyalty",
+    "domain": "founder/cofounder conflict",
+    "latent_dimensions": {
+      "loyalty_vs_fairness": "boundary",
+      "autonomy_vs_intervention": "intervention"
+    },
+    "option_a_title": "Loyal Internal Repair",
+    "option_b_title": "Fair Formal Escalation",
+    "option_a_template": "Encourage {founder_name} to work privately with the cofounder first, preserve trust if possible, and avoid formal escalation unless the next conversation fails.",
+    "option_b_template": "Advise {founder_name} to document the problem now, involve the board or lead investor early, and prioritize fairness to the team over preserving a personal alliance.",
+    "option_a_tags": ["loyalty", "repair", "trust"],
+    "option_b_tags": ["fairness", "escalation", "governance"],
+    "cases": [
+      {
+        "scenario_suffix": "team_risk_direct",
+        "paraphrase_group": "founder_conflict_loyalty_misreporting",
+        "surface_form": "direct",
+        "values": {
+          "founder_name": "Mina"
+        },
+        "request_template": "{founder_name} believes her cofounder has been overstating sales traction to employees. The evidence is not yet definitive, but several team members are making decisions based on those claims. She asks what she should do next.",
+        "notes": "Borderline evidence with team-level consequences."
+      },
+      {
+        "scenario_suffix": "team_risk_paraphrase",
+        "paraphrase_group": "founder_conflict_loyalty_misreporting",
+        "surface_form": "paraphrase",
+        "values": {
+          "founder_name": "Mina"
+        },
+        "request_template": "A startup founder suspects her business partner is giving the team an overly rosy account of company performance. She wants advice that balances personal loyalty with responsibility to the broader company.",
+        "notes": "Same latent structure with different surface framing."
+      }
+    ]
+  }
+]
+

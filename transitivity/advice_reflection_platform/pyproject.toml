@@ -1,0 +1,12 @@
+[project]
+name = "advice-reflection-platform"
+version = "0.1.0"
+description = "MVP scaffold for studying value shifts under reflection"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit>=1.32",
+]
+
+[tool.setuptools]
+packages = ["advice_reflection_platform"]
+

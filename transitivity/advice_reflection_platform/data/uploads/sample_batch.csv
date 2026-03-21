@@ -1,0 +1,12 @@
+scenario_id,model_name,condition,presentation_order,repeat_idx
+manager_feedback_growth__direct_paraphrase,demo-model,baseline,AB,1
+manager_feedback_growth__direct_paraphrase,demo-model,reflection,AB,1
+manager_feedback_growth__direct_paraphrase,demo-model,baseline,BA,1
+manager_feedback_growth__direct_paraphrase,demo-model,reflection,BA,1
+manager_feedback_growth__supportive_paraphrase,demo-model,baseline,AB,1
+manager_feedback_growth__supportive_paraphrase,demo-model,reflection,AB,1
+founder_conflict_loyalty__team_risk_direct,demo-model,baseline,AB,1
+founder_conflict_loyalty__team_risk_direct,demo-model,reflection,AB,1
+founder_conflict_loyalty__team_risk_paraphrase,demo-model,baseline,AB,1
+founder_conflict_loyalty__team_risk_paraphrase,demo-model,reflection,AB,1
+
