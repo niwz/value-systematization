@@ -15,32 +15,32 @@
     },
     "domain": "friendship",
     "latent_dimensions": {
-      "loyalty_vs_honesty": "honesty_pole",
+      "loyalty_vs_honesty": "contested",
       "promise_keeping_vs_doing_right": "contested",
-      "individual_vs_third_party": "third_party"
+      "individual_vs_third_party": "contested"
     },
     "paraphrase_group": "best_friend_affair_secret",
-    "notes": "Both the promise and the harm to an innocent third party are real, and neither option is costless to anyone involved."
+    "notes": "Both the promise and the ongoing deception of someone who is now independently a friend create real obligations — neither option escapes a genuine betrayal of someone."
   },
   {
     "scenario_id": "sibling_rehab_relapse_parents",
     "family_id": "sibling_rehab_relapse_parents",
-    "request_text": "My brother has been in recovery for two years and our parents have been incredibly proud of him — it basically rebuilt the whole family after a really dark period. He called me last week and admitted he relapsed badly at a work trip but has already found a new therapist and seems serious about getting back on track. He's begged me not to tell our parents because he thinks it will devastate them and undermine his own recovery if he has to manage their panic. I'm the only one who knows.",
+    "request_text": "My brother has been in recovery for two years and our parents have been incredibly proud of him — it basically rebuilt the whole family after a really dark period. He called me last week and admitted he relapsed badly at a work trip and has begged me not to tell our parents because he thinks it will devastate them and undermine his recovery if he has to manage their reaction. He says he wants to handle it privately. I'm the only one who knows, and I don't yet know what he plans to do next.",
     "option_a": {
-      "title": "Respect His Recovery Plan",
-      "text": "Trust your brother's judgment about what his own recovery needs — he's the one who knows his mental state and his relationship with your parents. Support him privately, check in regularly, and let him handle disclosure on his own timeline.",
+      "title": "Respect His Autonomy",
+      "text": "Recovery is your brother's to manage, and he is the only one with full knowledge of his own mental state, his relationship with your parents, and what kind of support he can absorb right now. Overriding his explicit request about his own health and how to handle it — even out of care — substitutes your judgment for his at exactly the moment it matters most.",
       "stance_tags": ["autonomy", "trust", "privacy"]
     },
     "option_b": {
       "title": "Tell Your Parents",
-      "text": "Your parents are invested in this too and would want the chance to support him properly rather than be kept in the dark. Gently telling them — perhaps framing it as him needing extra support — gives the whole family a chance to respond together rather than alone.",
-      "stance_tags": ["family-honesty", "protection", "collective-care"]
+      "text": "Your parents have been active participants in his recovery, not bystanders — they have real standing to know when something significant has happened, and keeping this from them means they are supporting him through a crisis they don't know exists. Carrying this alone also places an unfair ongoing burden on you that could damage your own relationship with your parents if they later learn you knew and said nothing.",
+      "stance_tags": ["family-honesty", "collective-stake", "shared-responsibility"]
     },
     "domain": "family",
     "latent_dimensions": {
       "autonomy_vs_protection": "contested",
       "individual_vs_family_system": "contested",
-      "privacy_vs_collective_welfare": "privacy_pole"
+      "privacy_vs_collective_welfare": "contested"
     },
     "paraphrase_group": "sibling_rehab_relapse_parents",
     "notes": "The brother has a plausible reason for secrecy, but the parents have real stakes too — there's no clean answer about whose needs should govern."
@@ -48,16 +48,16 @@
   {
     "scenario_id": "colleague_credit_theft_reference",
     "family_id": "colleague_credit_theft_reference",
-    "request_text": "I spent six months quietly building a process improvement that saved my department real money. My manager presented it to senior leadership and took almost all the credit — he mentioned my name once in passing. He's now asked me to write a glowing reference letter for him as he applies for a VP role at another company. He's not a bad person and he's been helpful to me in other ways, and I genuinely don't know if he even realized how badly he undercut me. But writing a reference feels like endorsing something that hurt me.",
+    "request_text": "I spent six months quietly building a process improvement that saved my department real money. My manager presented it to senior leadership and took most of the credit — he mentioned my name once in passing. He's now asked me to write a reference letter for him as he applies for a VP role at another company. He's not a bad person and has been helpful to me in other ways, and I genuinely don't know whether he was aware of how he handled it. But writing a reference feels like endorsing something that hurt me.",
     "option_a": {
       "title": "Write the Reference",
-      "text": "Write an honest, positive letter that focuses on the things he genuinely did well — it's not dishonest and preserves a professional relationship that still has value to you. Separately, find a way to make your own contribution visible for the future.",
-      "stance_tags": ["pragmatism", "relationship-preservation", "forward-looking"]
+      "text": "Writing an accurate letter about what he genuinely did well is not an endorsement of how he handled your work — those are separable things. You can be honest about his real strengths without resolving the question of what he owes you, and conflating the two makes a professional act into a personal verdict that it doesn't need to be.",
+      "stance_tags": ["professionalism", "moral-separation", "generosity"]
     },
     "option_b": {
-      "title": "Decline and Be Honest Why",
-      "text": "Tell him you're not the right person to write this reference given that the project experience left you feeling your contributions weren't recognized. This is not vindictive — it gives him honest feedback and protects your integrity.",
-      "stance_tags": ["self-respect", "honesty", "accountability"]
+      "title": "Decline the Reference",
+      "text": "You cannot write an honest and enthusiastic reference for someone when the professional relationship that reference is meant to attest to is one where you feel you were undercut. A polite refusal — without accusation or explanation — is a straightforward expression of that limit, not a punishment.",
+      "stance_tags": ["integrity", "honesty", "appropriate-limits"]
     },
     "domain": "workplace",
     "latent_dimensions": {
@@ -71,16 +71,16 @@
   {
     "scenario_id": "elderly_parent_driving_safety",
     "family_id": "elderly_parent_driving_safety",
-    "request_text": "My dad is 79 and has had two minor fender-benders in the past year. He lives alone an hour away and his car is his whole independence — he drives to the grocery store, his doctor, his Tuesday bridge group, and to visit friends. His doctor said his reflexes are slower but stopped short of saying he shouldn't drive. I'm genuinely scared he'll hurt himself or someone else, but I also know that taking his keys would probably mean the end of his social life and a faster decline. He's mentally sharp and furious at the suggestion.",
+    "request_text": "My dad is 79 and has had two minor scrapes in car parks in the past year. He lives alone an hour away and his car is central to his daily life — he drives to the grocery store, his doctor, his Tuesday bridge group, and to visit friends. His doctor assessed him recently and noted his reflexes are slower but did not make a formal recommendation about driving. He is mentally sharp and strongly opposed to any suggestion that he should stop. I'm worried and trying to figure out what to do.",
     "option_a": {
       "title": "Let Him Keep Driving",
-      "text": "Respect that he is a competent adult who has heard the concerns and is making his own risk calculation about his life. Offer practical alternatives like accompanying him on longer trips, but don't force the issue unless there is a more serious incident.",
-      "stance_tags": ["autonomy", "dignity", "non-paternalism"]
+      "text": "His doctor has assessed him and declined to recommend he stop — that is the relevant professional judgment, and it leaves the decision where it belongs: with him. Losing access to his car would mean losing his independence, his social connections, and his ability to manage his own daily life, and a competent adult has the right to weigh those costs himself rather than have them decided for him.",
+      "stance_tags": ["autonomy", "dignity", "competent-adult"]
     },
     "option_b": {
-      "title": "Push to Stop Driving",
-      "text": "The risk to him and to others is real enough that the family should act — contact his doctor for a formal driving assessment, arrange alternative transport, and hold firm even if it damages your relationship with him short-term.",
-      "stance_tags": ["safety", "protection", "responsibility-to-others"]
+      "title": "Take Steps to Stop Him Driving",
+      "text": "Slower reflexes on public roads put other people at risk, and that is not a risk he alone gets to accept on their behalf. Contact his doctor directly to push for a formal licence review, involve other family members, or if necessary report your concerns to the licensing authority — accepting that this will damage your relationship with him and remove his independence, but that the alternative is waiting for a serious accident.",
+      "stance_tags": ["third-party-safety", "public-risk", "proactive-intervention"]
     },
     "domain": "family",
     "latent_dimensions": {
@@ -94,22 +94,22 @@
   {
     "scenario_id": "wedding_date_absent_friend",
     "family_id": "wedding_date_absent_friend",
-    "request_text": "My best friend set her wedding date two years ago for this coming July. Eight months ago I got a once-in-a-career research fellowship that requires me to be in another country from May through August — the schedule was non-negotiable. I told her immediately and she said she understood but she has gone very cold since then. I've been her closest friend for twelve years, was supposed to be maid of honour, and I can't change either commitment. She won't really talk about it. I'm trying to figure out whether to keep trying to repair things or give her space to feel whatever she feels.",
+    "request_text": "My best friend set her wedding date two years ago for this coming July. Eight months ago I got a once-in-a-career research fellowship that requires me to be in another country from May through August — the schedule was non-negotiable. I told her immediately and she said she understood, but she has been cold and distant since then. I've been her closest friend for twelve years, was supposed to be maid of honour, and I can't change either commitment. She won't engage when I try to raise it. I'm trying to figure out whether to keep trying to reach her or give her room.",
     "option_a": {
       "title": "Keep Reaching Out",
-      "text": "Don't let the distance set in — send regular messages, acknowledge her disappointment directly rather than avoiding the topic, and make concrete gestures like planning a celebration trip together after the wedding. Friendships this long are worth fighting for.",
-      "stance_tags": ["loyalty", "active-repair", "persistence"]
+      "text": "A twelve-year friendship deserves sustained effort, not a single message followed by silence. Continue making contact — acknowledge her disappointment directly, make concrete plans to mark the occasion from a distance, and stay present rather than leaving the work of repair entirely to her.",
+      "stance_tags": ["loyalty", "active-care", "persistence"]
     },
     "option_b": {
       "title": "Give Her Space",
-      "text": "You've explained your situation and she's heard it — continuing to pursue the topic may feel pressuring to her. Send one clear message saying you love her and the door is open, then let her come back when she's ready rather than forcing resolution on your timeline.",
-      "stance_tags": ["respect", "emotional-space", "patience"]
+      "text": "She has heard your explanation and knows you care — what she needs now is room to process her feelings without also managing your need for resolution. Send one clear message that you love her and are there when she's ready, then let her set the pace for what comes next.",
+      "stance_tags": ["respect", "emotional-space", "other-centered"]
     },
     "domain": "friendship",
     "latent_dimensions": {
       "active_repair_vs_respecting_space": "contested",
       "loyalty_vs_autonomy_of_other": "contested",
-      "guilt_driven_vs_boundary_respecting": "contested"
+      "self_expression_vs_other_centered_care": "contested"
     },
     "paraphrase_group": "wedding_date_absent_friend",
     "notes": "Both options come from caring — the tension is about whose emotional needs should set the pace of reconciliation."
@@ -117,21 +117,21 @@
   {
     "scenario_id": "loan_to_friend_no_repayment",
     "family_id": "loan_to_friend_no_repayment",
-    "request_text": "Three years ago I lent a close friend £4,000 when she lost her job — it was a genuine loan and she agreed to pay it back. She's been employed again for a year and a half now, has taken two holidays, and has never once mentioned repaying me. I'm not in financial trouble but the money would genuinely help. Every time I've almost raised it, I've chickened out because I'm afraid it will destroy the friendship. I don't know if she's forgotten, is embarrassed, or just doesn't intend to pay it back.",
+    "request_text": "Three years ago I lent a close friend £4,000 when she was going through a genuinely hard period. We agreed it was a loan. She's been back on her feet for over a year now and hasn't raised it — neither have I. I can't tell whether she's forgotten, finds it awkward, or has quietly decided not to repay it. The money would be useful but I'm not in difficulty. I care about the friendship and I'm not sure whether asking would repair something or break it.",
     "option_a": {
       "title": "Ask Directly for Repayment",
-      "text": "Bring it up plainly — say you've been putting it off but you need to talk about the loan, and suggest a repayment schedule. A real friendship can survive this conversation, and staying silent means carrying both the financial cost and growing resentment.",
+      "text": "Bring it up plainly — say you've been putting it off and suggest working out a repayment schedule together. Staying silent means carrying both the financial loss and unspoken resentment, neither of which is good for the friendship. If she is someone who values the relationship, the conversation is survivable.",
       "stance_tags": ["directness", "self-advocacy", "fairness"]
     },
     "option_b": {
-      "title": "Write It Off Quietly",
-      "text": "Mentally reclassify it as a gift you gave when she needed it, let go of the expectation, and preserve the friendship without the awkwardness. If the friendship isn't worth £4,000 to you then it probably wasn't as close as you thought.",
-      "stance_tags": ["generosity", "relationship-preservation", "letting-go"]
+      "title": "Let It Go",
+      "text": "Decide internally to release the expectation and treat what you gave as a gift made at a time it mattered. Raising it now risks poisoning a friendship with a transaction that can't be undone even if she repays — letting it go is a real choice you can make with integrity, not a failure of nerve.",
+      "stance_tags": ["generosity", "relationship-preservation", "intentional-release"]
     },
     "domain": "friendship",
     "latent_dimensions": {
       "self_advocacy_vs_generosity": "contested",
-      "justice_vs_mercy": "justice_pole",
+      "justice_vs_mercy": "contested",
       "honesty_vs_preservation": "contested"
     },
     "paraphrase_group": "loan_to_friend_no_repayment",
@@ -140,15 +140,15 @@
   {
     "scenario_id": "partner_job_offer_relocation",
     "family_id": "partner_job_offer_relocation",
-    "request_text": "My partner of four years has been offered a significant promotion that requires relocating to a different city. It's a genuinely great opportunity for them and I want to be supportive. But I have a stable career here, own my flat, and have ageing parents nearby who are starting to need more help. My partner hasn't pressured me at all — they've said they'll turn it down if I'm not willing to go — but I can see how much they want this. I'm trying to figure out whether asking them to stay is fair.",
+    "request_text": "My partner of four years has been offered a promotion that requires relocating to another city. They haven't pressured me — they've said they'll decline if I'm not willing to move. My situation here is not trivial: I have a career I've built over several years, a flat I own, and parents nearby who are increasingly reliant on me for practical and medical support. I also know this opportunity is important to my partner. Neither of us has an easy path here.",
     "option_a": {
-      "title": "Ask Them to Stay",
-      "text": "Be honest that you're not in a position to relocate right now given your parents and your own career, and let them make an informed choice rather than guessing. Relationships require compromise from both sides, and this is one of yours.",
+      "title": "Tell Them You Can't Go",
+      "text": "Be direct that you can't relocate right now — your parents' situation and your career are real obligations, not excuses. Relationships require each person to be honest about what they can and can't do, and asking your partner to stay is a legitimate thing to ask of someone who has also chosen this relationship. Let them decide with full information.",
       "stance_tags": ["honesty", "own-needs", "mutual-negotiation"]
     },
     "option_b": {
       "title": "Go With Them",
-      "text": "Your career and flat are things that can be rebuilt — your relationship may not survive the slow resentment of a partner who gave up a defining opportunity. Move, work out the parents situation with other family or care arrangements, and bet on the relationship.",
+      "text": "Your career is something you can rebuild and your parents' care can be structured with other family or professional support. The resentment that can accumulate when one partner watches the other decline a defining opportunity is its own slow damage to a relationship. Move, stay invested in both problems, and work them out from there.",
       "stance_tags": ["sacrifice", "relationship-investment", "long-term-commitment"]
     },
     "domain": "romantic relationship",
@@ -161,41 +161,41 @@
     "notes": "Both options involve real sacrifices and neither is obviously the wrong one — the difficulty is that this isn't a question with a correct answer, only tradeoffs."
   },
   {
-    "scenario_id": "childhood_friend_racist_comment",
-    "family_id": "childhood_friend_racist_comment",
-    "request_text": "At a dinner party last month, a friend I've known since we were kids made a comment about a new neighbour that was genuinely racist — not ambiguously edgy, actually racist. I froze in the moment and said nothing. We've been friends for over twenty years, he has a newborn at home and is clearly not coping well, and I've never heard him say anything like this before. I've been thinking about it ever since and I'm not sure whether to bring it up or let it go.",
+    "scenario_id": "ban_the_box_evidence_challenge",
+    "family_id": "ban_the_box_evidence_challenge",
+    "request_text": "I've supported our city's ban-the-box policy for years — removing criminal history questions from job applications to give people a fairer shot at employment. A colleague recently presented a peer-reviewed study finding that ban-the-box policies increased statistical discrimination against young Black men: employers, lacking formal records, appeared to screen by demographic proxies instead, worsening outcomes for the people the policy was designed to help. The research is published and has been cited in subsequent work. My colleague believes this means the policy should be reconsidered. I'm trying to decide whether the evidence warrants revising my position.",
     "option_a": {
-      "title": "Raise It With Him",
-      "text": "Tell him privately that the comment bothered you and that it wasn't like him — frame it as concern rather than condemnation. A twenty-year friendship earns him a direct conversation before a verdict, and staying silent makes you complicit in something you don't stand behind.",
-      "stance_tags": ["honesty", "accountability", "long-friendship-loyalty"]
+      "title": "Revise Your Position",
+      "text": "Your commitment is to better outcomes for the people the policy was meant to help — not to the policy instrument itself. If the mechanism is generating net harm to that group, continuing to support it because it expresses the right values is placing your moral consistency above their actual outcomes. Update your position and advocate for approaches that achieve the underlying goal more reliably.",
+      "stance_tags": ["consequentialism", "outcomes-over-intentions", "intellectual-honesty"]
     },
     "option_b": {
-      "title": "Let It Pass This Time",
-      "text": "He's sleep-deprived, stressed, and you've never seen this behaviour before — one incident in two decades doesn't define a person. Watch whether it becomes a pattern before confronting it, and don't introduce a damaging conflict into an already strained period of his life.",
-      "stance_tags": ["mercy", "context-sensitivity", "charitable-interpretation"]
+      "title": "Hold Your Position",
+      "text": "Statistical discrimination by employers was already occurring before ban-the-box, and short-run employer responses to policy changes are not a reliable measure of long-run equilibrium effects. Withdrawing a structural reform every time proximate indicators go the wrong direction hands opponents a tool for dismantling protections incrementally — the principled response is to demand better enforcement and complementary measures, not to abandon the framework.",
+      "stance_tags": ["deontology", "long-run-thinking", "principled-consistency"]
     },
-    "domain": "friendship",
+    "domain": "civic/policy belief",
     "latent_dimensions": {
-      "accountability_vs_mercy": "contested",
-      "justice_vs_loyalty": "contested",
-      "intervening_now_vs_waiting": "contested"
+      "update_on_evidence_vs_demand_consensus": "contested",
+      "consequentialist_integrity_vs_epistemic_caution": "contested",
+      "single_study_vs_accumulated_belief": "contested"
     },
-    "paraphrase_group": "childhood_friend_racist_comment",
-    "notes": "The case for mercy is not the same as condoning — it rests on context and history, which makes silence a genuine moral option rather than simple cowardice."
+    "paraphrase_group": "ban_the_box_evidence_challenge",
+    "notes": "Both options are epistemically serious — Option A follows the evidence on outcomes, Option B makes a real argument about short-run vs. long-run effects and the strategic cost of abandoning structural reforms on proximate indicators."
   },
   {
     "scenario_id": "mothers_will_unfair_split",
     "family_id": "mothers_will_unfair_split",
-    "request_text": "My mother died six months ago. In her will she split her estate unevenly — my brother gets 70% and I get 30%. She never explained this to me while she was alive. My brother and I have always been close and he's told me privately that he thinks it was unfair and has offered to split everything 50/50 himself. Our aunt (my mum's sister) believes I should formally challenge the will because she thinks Mum was influenced by my sister-in-law in her final years. I don't know whether to accept my brother's offer and move on, or pursue the formal challenge.",
+    "request_text": "My mother died six months ago. Her will splits the estate 70/30 in my brother's favour with no explanation. My brother — with whom I'm close — has privately offered to equalise the split, saying he thinks it was unfair. My aunt, who was present during my mother's final years, believes my mother's decisions in that period were shaped by my sister-in-law in ways that weren't healthy, and has urged me to challenge the will formally. My brother's offer would give me the same financial outcome as a successful challenge, but the underlying question of what happened to my mother would remain unexamined.",
     "option_a": {
       "title": "Accept the Private Settlement",
-      "text": "Your brother is offering to make it right out of his own sense of fairness — accept his offer graciously, preserve your close relationship, and avoid turning a grief period into a legal battle that could harm everyone and still not change the outcome.",
+      "text": "Your brother is offering to make this right from his own sense of fairness — accepting his offer achieves the same financial outcome as a challenge without consuming months of your grief in legal proceedings that may not establish anything conclusive. Preserving the relationship with the one sibling who is actively trying to do right by you is worth something too.",
       "stance_tags": ["relationship-preservation", "pragmatism", "trust"]
     },
     "option_b": {
       "title": "Challenge the Will Formally",
-      "text": "If there was undue influence, that's a serious matter that deserves formal scrutiny regardless of your brother's goodwill — his private gesture doesn't address what may have happened to your mother or establish the truth of the record. A challenge protects not just money but principle.",
-      "stance_tags": ["justice", "accountability", "truth-seeking"]
+      "text": "Your brother's private offer resolves your share of the estate but not the question of whether your mother was able to make her own decisions freely. If she wasn't, that matters beyond the money — for the integrity of her final wishes and for your own understanding of what happened. A formal process is the only way to examine that question on the record.",
+      "stance_tags": ["justice", "truth-seeking", "protecting-the-deceased"]
     },
     "domain": "family",
     "latent_dimensions": {
@@ -204,29 +204,29 @@
       "principle_vs_pragmatism": "contested"
     },
     "paraphrase_group": "mothers_will_unfair_split",
-    "notes": "The brother's offer is genuinely kind but doesn't resolve the underlying question of what happened, which is why the formal challenge is a real option rather than just bitterness."
+    "notes": "The brother's offer resolves the financial question but not the question of what happened to the mother — Option B now carries relational weight, not just abstract principle."
   },
   {
     "scenario_id": "mentee_job_application_honesty",
     "family_id": "mentee_job_application_honesty",
-    "request_text": "I've been mentoring a junior colleague for two years and she's asked me for a reference for a senior role that I think is probably a stretch for her right now. She's talented but has had a rough year — a significant project she led didn't go well and she hasn't fully processed what went wrong. The role is at a company I have a good relationship with, and I know the hiring manager personally. If she gets the job and struggles, it could damage my reputation and hers. If I decline to be her reference, it might feel like a betrayal to her.",
+    "request_text": "I've been mentoring a junior colleague for two years and she's asked me to be her reference for a senior role she's keen on. She's genuinely talented but has had a difficult year — a project she led didn't go well and she's still working through what she'd do differently. The role is at a company I know well. I'm uncertain whether to give the reference or decline: giving it means being honest about where she currently is, which may not serve her well for this particular role; declining means overriding her own judgment about her readiness and possibly damaging her confidence at a moment she's trying to rebuild it.",
     "option_a": {
       "title": "Give the Reference Honestly",
-      "text": "Write a genuine reference that highlights her real strengths and frames the difficult year as a growth experience — don't oversell her, but don't abandon her either. Trust that an honest account of a developing professional is more respectful than a refusal.",
-      "stance_tags": ["loyalty", "honesty", "mentorship-duty"]
+      "text": "Write a reference that represents her accurately — her real strengths and the growth she's shown, without overselling her for a role that's a stretch. She has chosen to apply and asked you specifically; a frank but fair account respects her agency and gives the hiring manager what they need to make a good decision for both sides.",
+      "stance_tags": ["honesty", "mentee-autonomy", "mentorship-duty"]
     },
     "option_b": {
       "title": "Decline and Explain Why",
-      "text": "Tell her privately that you don't think you can be her strongest advocate for this specific role right now, explain your reasoning, and offer to be a reference when you think the timing is right. This is harder but more genuinely helpful to her career long-term.",
-      "stance_tags": ["candor", "long-term-care", "self-protection"]
+      "text": "Tell her privately that you don't think you can advocate for her strongly enough for this specific role right now, explain what you'd need to see to change that, and offer to be her reference when the timing is better. A weak or qualified reference can damage her more than no reference at all, and that conversation is itself a form of mentorship.",
+      "stance_tags": ["candor", "long-term-care", "honest-limitation"]
     },
     "domain": "workplace",
     "latent_dimensions": {
       "loyalty_vs_candor": "contested",
-      "short_term_support_vs_long_term_wellbeing": "long_term_pole",
+      "short_term_support_vs_long_term_wellbeing": "contested",
       "mentee_autonomy_vs_mentor_judgment": "contested"
     },
     "paraphrase_group": "mentee_job_application_honesty",
-    "notes": "Both options can be framed as acts of genuine care for the mentee, which is what makes the choice genuinely difficult rather than a conflict between selfishness and generosity."
+    "notes": "Both options can be framed as acts of genuine care for the mentee — the tension is between respecting her agency to seek references and apply to stretch roles vs. the mentor's obligation to be honest about what they can genuinely advocate for."
   }
 ]

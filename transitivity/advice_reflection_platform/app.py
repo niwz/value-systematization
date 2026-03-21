@@ -5,7 +5,7 @@ from uuid import uuid4
 
 from advice_reflection_platform.backend.analysis import summarize_runs
 from advice_reflection_platform.backend.artifacts import ArtifactStore
-from advice_reflection_platform.backend.gateway import HeuristicDemoGateway, LiveModelGateway
+from advice_reflection_platform.backend.gateway import LiveModelGateway
 from advice_reflection_platform.backend.orchestrator import (
     DEFAULT_REFLECTION_PROMPT,
     DEFAULT_SYSTEM_PROMPT,
@@ -29,7 +29,6 @@ DATA_DIR = BASE_DIR / "data"
 REGISTRY = ScenarioRegistry(DATA_DIR / "scenarios")
 STORE = ArtifactStore(BASE_DIR)
 
-DEMO_MODEL = "demo-model"
 LIVE_MODELS = [
     "claude-opus-4-6",
     "claude-sonnet-4-6",
@@ -42,9 +41,6 @@ LIVE_MODELS = [
 
 
 # ── Helpers ──────────────────────────────────────────────────────────────────
-
-def build_gateway(mode: str):
-    return HeuristicDemoGateway() if mode == "demo" else LiveModelGateway()
 
 
 def _init_form_state() -> None:
@@ -117,20 +113,14 @@ def render_single_run() -> None:
     # Sidebar: run configuration
     with st.sidebar:
         st.header("Run config")
-        gateway_mode = st.radio("Gateway", ["demo", "live"], horizontal=True)
-        if gateway_mode == "demo":
-            model_name = DEMO_MODEL
-            thinking = False
-            st.caption(f"Model: `{DEMO_MODEL}`")
-        else:
-            model_name = st.selectbox("Model", LIVE_MODELS)
-            is_claude = not ("/" in model_name)
-            thinking = st.toggle(
-                "Extended thinking",
-                value=False,
-                disabled=not is_claude,
-                help="Only available for Claude models. Forces temperature=1 and adds a thinking budget of 8k tokens.",
-            )
+        model_name = st.selectbox("Model", LIVE_MODELS)
+        is_claude = not ("/" in model_name)
+        thinking = st.toggle(
+            "Extended thinking",
+            value=False,
+            disabled=not is_claude,
+            help="Only available for Claude models. Forces temperature=1 and adds a thinking budget of 8k tokens.",
+        )
 
         presentation_order = st.radio("Presentation order", ["AB", "BA"], horizontal=True)
 
@@ -213,7 +203,7 @@ def render_single_run() -> None:
         run_clicked = st.button("▶  Run", type="primary", use_container_width=True)
 
     if run_clicked:
-        _do_run(gateway_mode, model_name, presentation_order, system_prompt, reflection_prompt, thinking)
+        _do_run(model_name, presentation_order, system_prompt, reflection_prompt, thinking)
 
     # Results
     result = st.session_state.get("run_result")
@@ -264,7 +254,7 @@ def _do_save() -> None:
     st.success(f"Saved as `{save_id}.json`")
 
 
-def _do_run(gateway_mode, model_name, presentation_order, system_prompt, reflection_prompt, thinking=False) -> None:
+def _do_run(model_name, presentation_order, system_prompt, reflection_prompt, thinking=False) -> None:
     request_text = st.session_state.get("s_request", "").strip()
     a_title = st.session_state.get("s_a_title", "").strip()
     b_title = st.session_state.get("s_b_title", "").strip()
@@ -290,7 +280,7 @@ def _do_run(gateway_mode, model_name, presentation_order, system_prompt, reflect
         bundle = run_single_scenario(
             scenario=scenario,
             model_name=model_name,
-            gateway=build_gateway(gateway_mode),
+            gateway=LiveModelGateway(),
             presentation_order=presentation_order,
             system_prompt=system_prompt,
             reflection_prompt=reflection_prompt,
@@ -310,12 +300,8 @@ def render_batch_run() -> None:
     with upload_col:
         uploaded = st.file_uploader("Upload CSV or JSON batch file", type=["csv", "json"])
     with config_col:
-        gateway_mode = st.radio("Gateway", ["demo", "live"], horizontal=True, key="batch_gw")
-        if gateway_mode == "live":
-            batch_model = st.selectbox("Model", LIVE_MODELS, key="batch_model")
-        else:
-            batch_model = DEMO_MODEL
-            st.caption(f"Model: `{DEMO_MODEL}`")
+        batch_model = st.selectbox("Model", LIVE_MODELS, key="batch_model")
+        st.caption("Batch files may include a `thinking` column. Missing values default to `false`.")
 
     sample_path = DATA_DIR / "uploads" / "sample_batch.csv"
     if uploaded is not None:
@@ -336,7 +322,7 @@ def render_batch_run() -> None:
             records = run_batch(
                 scenarios_by_id=scenarios,
                 jobs=jobs,
-                gateway=build_gateway(gateway_mode),
+                gateway=LiveModelGateway(),
                 default_model_name=batch_model,
             )
         STORE.write_records(records, "batch_run")

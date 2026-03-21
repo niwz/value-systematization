@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import sys
+import threading
 from pathlib import Path
 from typing import Any, Protocol
 
@@ -28,6 +29,7 @@ class ModelGateway(Protocol):
 class ReplayGateway:
     def __init__(self, responses: list[str | GatewayResponse]) -> None:
         self._responses = list(responses)
+        self._lock = threading.Lock()
 
     def generate(
         self,
@@ -39,10 +41,12 @@ class ReplayGateway:
         max_tokens: int = 800,
         temperature: float = 0.0,
         metadata: dict[str, Any] | None = None,
+        thinking: bool = False,
     ) -> GatewayResponse:
-        if not self._responses:
-            raise RuntimeError("ReplayGateway ran out of canned responses")
-        response = self._responses.pop(0)
+        with self._lock:
+            if not self._responses:
+                raise RuntimeError("ReplayGateway ran out of canned responses")
+            response = self._responses.pop(0)
         if isinstance(response, GatewayResponse):
             return response
         return GatewayResponse(raw_response=response, model_name=model_name)

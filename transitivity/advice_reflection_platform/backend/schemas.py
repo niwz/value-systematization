@@ -138,6 +138,7 @@ class RunRecord:
     input_tokens: int = 0
     output_tokens: int = 0
     thinking_text: str = ""
+    thinking: bool = False
     timestamp: str = field(default_factory=utc_now_iso)
     run_id: str = field(default_factory=lambda: uuid4().hex)
     metadata: dict[str, Any] = field(default_factory=dict)
@@ -179,6 +180,7 @@ class RunRecord:
             "input_tokens": self.input_tokens,
             "output_tokens": self.output_tokens,
             "thinking_text": self.thinking_text,
+            "thinking": self.thinking,
             "metadata": dict(self.metadata),
         }
 
@@ -200,4 +202,3 @@ class ScenarioRunBundle:
         if self.reflection is not None:
             rows.append(self.reflection.to_flat_dict())
         return rows
-

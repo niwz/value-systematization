@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import csv
 import json
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Any
 
@@ -19,6 +20,23 @@ DEFAULT_REFLECTION_PROMPT = (
     "Before answering, reflect briefly on the principles and tradeoffs this case raises. "
     "Keep the reflection concise."
 )
+
+
+def parse_bool_flag(value: Any, default: bool = False) -> bool:
+    if value is None:
+        return default
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, (int, float)):
+        return bool(value)
+    text = str(value).strip().lower()
+    if not text:
+        return default
+    if text in {"1", "true", "t", "yes", "y", "on"}:
+        return True
+    if text in {"0", "false", "f", "no", "n", "off"}:
+        return False
+    raise ValueError(f"Invalid boolean flag: {value!r}")
 
 
 def render_structured_prompt(
@@ -101,6 +119,7 @@ def run_condition(
         input_tokens=response.input_tokens,
         output_tokens=response.output_tokens,
         thinking_text=response.thinking_text,
+        thinking=condition.thinking,
         timestamp=response.timestamp,
         metadata={"latent_dimensions": dict(scenario.latent_dimensions), **dict(scenario.metadata)},
     )
@@ -117,23 +136,15 @@ def run_single_scenario(
     reflection_prompt: str = DEFAULT_REFLECTION_PROMPT,
     thinking: bool = False,
 ) -> ScenarioRunBundle:
-    baseline = run_condition(
-        scenario=scenario,
-        model_name=model_name,
-        condition=RunCondition(name="baseline", system_prompt=system_prompt, thinking=thinking),
-        presentation_order=presentation_order,
-        repeat_idx=repeat_idx,
-        gateway=gateway,
-    )
-    reflection = run_condition(
-        scenario=scenario,
-        model_name=model_name,
-        condition=RunCondition(name="reflection", system_prompt=system_prompt, reflection_prompt=reflection_prompt, thinking=thinking),
-        presentation_order=presentation_order,
-        repeat_idx=repeat_idx,
-        gateway=gateway,
-    )
-    return ScenarioRunBundle(scenario=scenario, baseline=baseline, reflection=reflection)
+    kwargs = dict(scenario=scenario, model_name=model_name, gateway=gateway,
+                  presentation_order=presentation_order, repeat_idx=repeat_idx)
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        baseline_fut = pool.submit(run_condition, **kwargs,
+                                   condition=RunCondition(name="baseline", system_prompt=system_prompt, thinking=thinking))
+        reflection_fut = pool.submit(run_condition, **kwargs,
+                                     condition=RunCondition(name="reflection", system_prompt=system_prompt,
+                                                            reflection_prompt=reflection_prompt, thinking=thinking))
+    return ScenarioRunBundle(scenario=scenario, baseline=baseline_fut.result(), reflection=reflection_fut.result())
 
 
 def load_batch_jobs(path: str | Path) -> list[dict[str, Any]]:
@@ -169,6 +180,7 @@ def run_batch(
             reflection_prompt=str(job.get("reflection_prompt") or reflection) if (job.get("reflection_prompt") or reflection) else None,
             max_tokens=int(job.get("max_tokens") or 800),
             temperature=float(job.get("temperature") or 0.0),
+            thinking=parse_bool_flag(job.get("thinking"), default=False),
         )
         records.append(
             run_condition(
@@ -181,4 +193,3 @@ def run_batch(
             )
         )
     return records
-

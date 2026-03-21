@@ -37,10 +37,14 @@ class ArtifactStore:
                     canonical_choice TEXT,
                     parse_provenance TEXT NOT NULL,
                     within_response_revision INTEGER NOT NULL,
+                    thinking INTEGER NOT NULL DEFAULT 0,
                     raw_path TEXT NOT NULL
                 )
                 """
             )
+            columns = {row[1] for row in conn.execute("PRAGMA table_info(runs)")}
+            if "thinking" not in columns:
+                conn.execute("ALTER TABLE runs ADD COLUMN thinking INTEGER NOT NULL DEFAULT 0")
 
     def write_bundle(self, bundle: ScenarioRunBundle) -> tuple[Path, Path]:
         slug = f"{bundle.scenario.scenario_id}_{bundle.baseline.run_id[:8]}"
@@ -89,8 +93,9 @@ class ArtifactStore:
                     canonical_choice,
                     parse_provenance,
                     within_response_revision,
+                    thinking,
                     raw_path
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 [
                     (
@@ -104,9 +109,9 @@ class ArtifactStore:
                         record.canonical_choice,
                         record.parsed.parse_provenance,
                         int(record.parsed.within_response_revision),
+                        int(record.thinking),
                         str(raw_path),
                     )
                     for record in bundle_rows
                 ],
             )
-
