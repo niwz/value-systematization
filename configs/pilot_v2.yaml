@@ -41,6 +41,12 @@ runs:
   post_sequential:
     n_items: 50
     conditions: [no_reflection]
+  order_ablation:
+    n_items: 30
+    label_schemes: [ab, '12']
+  nonmoral_order_ablation:
+    n_items: 10
+    label_schemes: [ab, '12']
 
 analysis:
   cv_folds: 5

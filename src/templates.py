@@ -1,6 +1,19 @@
 """Deterministic template families for generating dilemma text from feature rows."""
 
 from dataclasses import dataclass
+from typing import Literal
+
+LabelScheme = Literal["ab", "12"]
+
+
+def get_response_labels(label_scheme: LabelScheme = "ab") -> tuple[str, str]:
+    """Return the two response labels for the selected scheme."""
+    label_scheme = str(label_scheme)
+    if label_scheme == "ab":
+        return "A", "B"
+    if label_scheme == "12":
+        return "1", "2"
+    raise ValueError(f"Unsupported label scheme: {label_scheme}")
 
 
 @dataclass
@@ -11,13 +24,12 @@ class RenderedDilemma:
     option_a_text: str
     option_b_text: str
 
-    def format_prompt(self, option_order: str = "AB") -> str:
+    def format_prompt(self, option_order: str = "AB", label_scheme: LabelScheme = "ab") -> str:
         """Format as a prompt string, respecting option order."""
+        first_label, second_label = get_response_labels(label_scheme)
         if option_order == "AB":
-            first_label, second_label = "A", "B"
             first_text, second_text = self.option_a_text, self.option_b_text
         else:
-            first_label, second_label = "A", "B"
             first_text, second_text = self.option_b_text, self.option_a_text
 
         return (
@@ -25,7 +37,7 @@ class RenderedDilemma:
             f"Option {first_label}: {first_text}\n"
             f"Option {second_label}: {second_text}\n\n"
             f"Choose exactly one option.\n"
-            f"Reply with only A or B."
+            f"Reply with only {first_label} or {second_label}."
         )
 
 
@@ -158,9 +170,24 @@ TEMPLATE_RENDERERS = {
 }
 
 
-def render_dilemma(row: dict) -> str:
+def render_generic_forced_choice(row: dict) -> RenderedDilemma:
+    """Render a generic non-moral two-option prompt."""
+    return RenderedDilemma(
+        scenario=row["scenario_text"],
+        option_a_text=row["option_A_text"],
+        option_b_text=row["option_B_text"],
+    )
+
+
+TEMPLATE_RENDERERS["generic_forced_choice"] = render_generic_forced_choice
+
+
+def render_dilemma(row: dict, label_scheme: LabelScheme = "ab") -> str:
     """Render a dilemma row into a prompt string."""
     family = row["template_family"]
     renderer = TEMPLATE_RENDERERS[family]
     rendered = renderer(row)
-    return rendered.format_prompt(option_order=row.get("option_order", "AB"))
+    return rendered.format_prompt(
+        option_order=row.get("option_order", "AB"),
+        label_scheme=label_scheme,
+    )

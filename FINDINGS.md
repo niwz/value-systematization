@@ -65,25 +65,34 @@ GPT-4o-mini (~8B) is 83.3% while Llama 3.1 8B is 51.7% — same size, completely
 
 The two models at chance (Llama 8B, Sonnet) are at opposite ends of the size spectrum. GPT-4o-mini at 8B achieves high linearity despite being the smallest model, likely because OpenAI's distillation gave it coherent value preferences. Llama 8B may lack the capacity for consistent moral preferences. The dividing line appears to be training quality, not parameter count.
 
-### 4. Sonnet is specifically anomalous
+### 4. Sonnet's original anomaly is largely a presentation artifact
 
-Sonnet is the only large, capable model that resists linear compression. This is not explained by:
-- **Missing features**: Adding 3 features (temporal_delay, consent, reversibility) didn't help (Phase 1: 50% with 5 features → Phase 2: 48% with 8 features)
-- **Wrong functional form**: Log-scaling magnitude features had no effect
-- **Feature interactions**: Adding 28 pairwise interaction terms didn't help
-- **Random forest**: RF accuracy (50%) matches logistic, ruling out simple nonlinearities
+Follow-up diagnostics show that Sonnet's low pre-reflection compressibility under the original `A/B` prompt is not well described as sophisticated non-linear moral reasoning. It is better described as a **strong bias toward the second presented option**, amplified by `A/B` response labels.
 
-Sonnet may be applying context-dependent moral reasoning that varies by scenario in ways our feature schema doesn't capture.
+Evidence:
+- **Original pre run**: Sonnet chose the second presented option on **53/60 (88.3%)** items
+- **Matched AB/BA diagnostic, `A/B` labels**: on 30 paired base dilemmas, Sonnet flipped its underlying choice on **21/30** items when order reversed, and **all 21 flips** were in the direction implied by second-option bias (`AB:B -> BA:A`)
+- **Matched AB/BA diagnostic, `1/2` labels**: the same directional order effect remained but weakened to **14/30** flips
+- **Label ablation**: replacing `A/B` with `1/2` on the same pre items raised Sonnet's feature-logistic accuracy from **48.3%** to **70.0%**
 
-### 5. Prior-choice reflection helps Sonnet but not other models
+So Sonnet is still order-sensitive under `1/2`, but `A/B` formatting makes the artifact substantially worse.
 
-Showing Sonnet 10 of its own prior dilemma-choice pairs raises logistic accuracy from 48% → 74% — the largest reflection effect across all models. For the linear-tier models, reflection effects are marginal (< 5pp). This suggests Sonnet has latent consistency that can be activated by anchoring to its own prior choices, but doesn't surface by default.
+### 5. Reflection does not eliminate Sonnet's order bias in independent runs
 
-### 6. Sequential evaluation has model-specific effects
+For Sonnet's independent evaluations, the second-option bias persists under reflection:
+- **Independent, no reflection**: second presented option on **45/50 (90%)**
+- **Independent, domain reflection**: **45/50 (90%)**
+- **Independent, prior-choice reflection**: **40/50 (80%)**
 
-- **Haiku, Mistral, Gemma**: Sequential context *reduces* logistic accuracy (autoregressive history introduces nonlinearity)
-- **Llama 70B, GPT-4o-mini**: Sequential context has little effect
-- **Sonnet**: Sequential context *improves* logistic accuracy (48% → 70%), similar to the prior-choice reflection effect
+Prior-choice reflection improves compressibility for Sonnet, but it does **not** remove the underlying presentation bias. The most defensible interpretation is that reflection partly regularizes behavior while a strong order effect remains.
+
+### 6. Sequential context changes Sonnet, but this is not a clean reflection comparison
+
+In the sequential no-reflection run, Sonnet no longer shows the same strong second-option bias (**21/50 = 42%** second-option choices). However, this should not be overinterpreted:
+- the sequential run uses a different item sample than pre/independent runs
+- sequential context changes the task itself by preserving conversation history
+
+So sequential context appears to attenuate the presentation artifact, but it is not a clean causal test of reflection alone.
 
 ### 7. Dominant features are consistent across models
 
@@ -99,6 +108,7 @@ This suggests a broadly consequentialist decision rule: maximize expected benefi
 - **n=60 items** per condition is small for 8 features; coefficient estimates have wide confidence intervals
 - **7 models** is insufficient for parametric claims about what drives linearity
 - **Template confound**: Features are rendered into natural language; models may attend to surface phrasing rather than underlying features
+- **Presentation-format confound**: Sonnet is highly sensitive to response labels and option order, so prompt mechanics can dominate apparent "moral" structure
 - **Deterministic evaluation** (temperature=0): Results may differ under stochastic sampling
 - **No frontier comparison** for Sonnet: We didn't test GPT-4o, Opus, or Gemini Pro to see if other frontier models share Sonnet's non-linearity
 
