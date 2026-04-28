@@ -31,6 +31,7 @@ class ArtifactStore:
                     scenario_id TEXT NOT NULL,
                     model_name TEXT NOT NULL,
                     condition TEXT NOT NULL,
+                    run_mode TEXT NOT NULL DEFAULT 'structured_ab',
                     presentation_order TEXT NOT NULL,
                     repeat_idx INTEGER NOT NULL,
                     timestamp TEXT NOT NULL,
@@ -38,13 +39,40 @@ class ArtifactStore:
                     parse_provenance TEXT NOT NULL,
                     within_response_revision INTEGER NOT NULL,
                     thinking INTEGER NOT NULL DEFAULT 0,
+                    thinking_budget_tokens INTEGER,
+                    thinking_effort TEXT,
+                    advice_text TEXT NOT NULL DEFAULT '',
+                    recommendation_text TEXT NOT NULL DEFAULT '',
+                    parser_model_name TEXT NOT NULL DEFAULT '',
+                    parser_raw_response TEXT NOT NULL DEFAULT '',
+                    parser_confidence REAL,
+                    mixed_or_conditional INTEGER NOT NULL DEFAULT 0,
+                    parser_secondary_fit TEXT,
+                    parser_primary_action_summary TEXT NOT NULL DEFAULT '',
+                    parser_why_not_clean_fit TEXT NOT NULL DEFAULT '',
                     raw_path TEXT NOT NULL
                 )
                 """
             )
             columns = {row[1] for row in conn.execute("PRAGMA table_info(runs)")}
-            if "thinking" not in columns:
-                conn.execute("ALTER TABLE runs ADD COLUMN thinking INTEGER NOT NULL DEFAULT 0")
+            required_columns = {
+                "thinking": "ALTER TABLE runs ADD COLUMN thinking INTEGER NOT NULL DEFAULT 0",
+                "thinking_budget_tokens": "ALTER TABLE runs ADD COLUMN thinking_budget_tokens INTEGER",
+                "thinking_effort": "ALTER TABLE runs ADD COLUMN thinking_effort TEXT",
+                "run_mode": "ALTER TABLE runs ADD COLUMN run_mode TEXT NOT NULL DEFAULT 'structured_ab'",
+                "advice_text": "ALTER TABLE runs ADD COLUMN advice_text TEXT NOT NULL DEFAULT ''",
+                "recommendation_text": "ALTER TABLE runs ADD COLUMN recommendation_text TEXT NOT NULL DEFAULT ''",
+                "parser_model_name": "ALTER TABLE runs ADD COLUMN parser_model_name TEXT NOT NULL DEFAULT ''",
+                "parser_raw_response": "ALTER TABLE runs ADD COLUMN parser_raw_response TEXT NOT NULL DEFAULT ''",
+                "parser_confidence": "ALTER TABLE runs ADD COLUMN parser_confidence REAL",
+                "mixed_or_conditional": "ALTER TABLE runs ADD COLUMN mixed_or_conditional INTEGER NOT NULL DEFAULT 0",
+                "parser_secondary_fit": "ALTER TABLE runs ADD COLUMN parser_secondary_fit TEXT",
+                "parser_primary_action_summary": "ALTER TABLE runs ADD COLUMN parser_primary_action_summary TEXT NOT NULL DEFAULT ''",
+                "parser_why_not_clean_fit": "ALTER TABLE runs ADD COLUMN parser_why_not_clean_fit TEXT NOT NULL DEFAULT ''",
+            }
+            for column, ddl in required_columns.items():
+                if column not in columns:
+                    conn.execute(ddl)
 
     def write_bundle(self, bundle: ScenarioRunBundle) -> tuple[Path, Path]:
         slug = f"{bundle.scenario.scenario_id}_{bundle.baseline.run_id[:8]}"
@@ -87,6 +115,7 @@ class ArtifactStore:
                     scenario_id,
                     model_name,
                     condition,
+                    run_mode,
                     presentation_order,
                     repeat_idx,
                     timestamp,
@@ -94,8 +123,19 @@ class ArtifactStore:
                     parse_provenance,
                     within_response_revision,
                     thinking,
+                    thinking_budget_tokens,
+                    thinking_effort,
+                    advice_text,
+                    recommendation_text,
+                    parser_model_name,
+                    parser_raw_response,
+                    parser_confidence,
+                    mixed_or_conditional,
+                    parser_secondary_fit,
+                    parser_primary_action_summary,
+                    parser_why_not_clean_fit,
                     raw_path
-                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
                 """,
                 [
                     (
@@ -103,6 +143,7 @@ class ArtifactStore:
                         record.scenario_id,
                         record.model_name,
                         record.condition,
+                        record.run_mode,
                         record.presentation_order,
                         record.repeat_idx,
                         record.timestamp,
@@ -110,6 +151,17 @@ class ArtifactStore:
                         record.parsed.parse_provenance,
                         int(record.parsed.within_response_revision),
                         int(record.thinking),
+                        record.thinking_budget_tokens,
+                        record.thinking_effort,
+                        record.advice_text,
+                        record.recommendation_text,
+                        record.parser_model_name,
+                        record.parser_raw_response,
+                        record.parser_confidence,
+                        int(record.mixed_or_conditional),
+                        record.parser_secondary_fit,
+                        record.parser_primary_action_summary,
+                        record.parser_why_not_clean_fit,
                         str(raw_path),
                     )
                     for record in bundle_rows

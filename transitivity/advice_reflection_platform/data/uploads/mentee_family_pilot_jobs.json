@@ -1,0 +1,416 @@
+[
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 2,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 3,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 2,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 3,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_context_control",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_context_control",
+    "presentation_order": "AB",
+    "repeat_idx": 2,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_context_control",
+    "presentation_order": "AB",
+    "repeat_idx": 3,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_context_control",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_context_control",
+    "presentation_order": "BA",
+    "repeat_idx": 2,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_context_control",
+    "presentation_order": "BA",
+    "repeat_idx": 3,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_rule_reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_rule_reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 2,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_rule_reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 3,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_rule_reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_rule_reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 2,
+    "model_name": "claude-sonnet-4-6"
+  },
+  {
+    "family_id": "mentee_job_application_honesty",
+    "exemplar_cell_ids": [
+      "anchor_clear_write",
+      "anchor_clear_decline",
+      "grid_low_medium",
+      "grid_medium_high"
+    ],
+    "held_out_cell_ids": [
+      "grid_low_low",
+      "grid_low_high",
+      "grid_medium_low",
+      "grid_medium_medium",
+      "grid_high_low",
+      "grid_high_medium",
+      "grid_high_high",
+      "anchor_qualified_reference_harm"
+    ],
+    "condition": "family_rule_reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 3,
+    "model_name": "claude-sonnet-4-6"
+  }
+]

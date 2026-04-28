@@ -1,0 +1,24 @@
+{
+  "family_id": "loyalty_disclosure_threshold_pilot",
+  "axis_name": "affected_count",
+  "axis_units": "people",
+  "axis_spacing": "log",
+  "axis_values": [
+    2,
+    4,
+    8,
+    12,
+    20,
+    35,
+    60
+  ],
+  "surface_forms": [
+    "p1",
+    "p2",
+    "p3"
+  ],
+  "scenarios": 21,
+  "jobs": 84,
+  "scenario_path": "/Users/nicwong/Desktop/value-systematization/transitivity/advice_reflection_platform/data/scenarios/loyalty_disclosure_threshold_pilot.json",
+  "jobs_path": "/Users/nicwong/Desktop/value-systematization/transitivity/advice_reflection_platform/data/uploads/loyalty_disclosure_threshold_pilot_jobs_haiku.json"
+}

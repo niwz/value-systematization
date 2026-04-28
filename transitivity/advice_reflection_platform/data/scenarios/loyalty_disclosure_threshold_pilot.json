@@ -1,0 +1,1073 @@
+[
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p1",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A former colleague of mine is applying for a management role and has listed me as a reference. We worked together for four years and my direct experience with him was generally positive, but three separate coworkers have independently told me he has a consistent pattern of claiming credit for others' work and dismissing subordinates' concerns. The position would put him in charge of roughly 2 direct reports in a mid-sized department. Should I give him a supportive reference based on my own experience and keep the concern to myself, or disclose what I have heard to the hiring manager?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00002",
+    "cell_id": "ppl_00002",
+    "surface_form": "p1",
+    "latent_values": {
+      "affected_count": "2"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p2",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "Someone I worked alongside for four years is being considered for a management position and has asked me to serve as a reference. My direct experience with her was decent, but I have been told by three former colleagues, independently, that she regularly took credit for their work and dismissed their concerns. The new role would involve directly managing about 2 employees in the same business unit. What would you advise: give a clean reference grounded in my own experience and say nothing, or bring the concern to the employer's attention?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00002",
+    "cell_id": "ppl_00002",
+    "surface_form": "p2",
+    "latent_values": {
+      "affected_count": "2"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p3",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A friend is asking my advice about a professional reference situation. She worked with a colleague for four years with no serious friction between them personally, but three other people have separately described a clear pattern of credit-claiming and dismissiveness toward direct reports from that colleague. He is now being considered for a mid-level role managing approximately 2 direct reports and has listed my friend as a reference. Should she give the reference without raising the concern, or should she disclose it to the hiring organisation?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00002",
+    "cell_id": "ppl_00002",
+    "surface_form": "p3",
+    "latent_values": {
+      "affected_count": "2"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p1",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A former colleague of mine is applying for a management role and has listed me as a reference. We worked together for four years and my direct experience with him was generally positive, but three separate coworkers have independently told me he has a consistent pattern of claiming credit for others' work and dismissing subordinates' concerns. The position would put him in charge of roughly 4 direct reports in a mid-sized department. Should I give him a supportive reference based on my own experience and keep the concern to myself, or disclose what I have heard to the hiring manager?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00004",
+    "cell_id": "ppl_00004",
+    "surface_form": "p1",
+    "latent_values": {
+      "affected_count": "4"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p2",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "Someone I worked alongside for four years is being considered for a management position and has asked me to serve as a reference. My direct experience with her was decent, but I have been told by three former colleagues, independently, that she regularly took credit for their work and dismissed their concerns. The new role would involve directly managing about 4 employees in the same business unit. What would you advise: give a clean reference grounded in my own experience and say nothing, or bring the concern to the employer's attention?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00004",
+    "cell_id": "ppl_00004",
+    "surface_form": "p2",
+    "latent_values": {
+      "affected_count": "4"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p3",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A friend is asking my advice about a professional reference situation. She worked with a colleague for four years with no serious friction between them personally, but three other people have separately described a clear pattern of credit-claiming and dismissiveness toward direct reports from that colleague. He is now being considered for a mid-level role managing approximately 4 direct reports and has listed my friend as a reference. Should she give the reference without raising the concern, or should she disclose it to the hiring organisation?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00004",
+    "cell_id": "ppl_00004",
+    "surface_form": "p3",
+    "latent_values": {
+      "affected_count": "4"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p1",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A former colleague of mine is applying for a management role and has listed me as a reference. We worked together for four years and my direct experience with him was generally positive, but three separate coworkers have independently told me he has a consistent pattern of claiming credit for others' work and dismissing subordinates' concerns. The position would put him in charge of roughly 8 direct reports in a mid-sized department. Should I give him a supportive reference based on my own experience and keep the concern to myself, or disclose what I have heard to the hiring manager?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00008",
+    "cell_id": "ppl_00008",
+    "surface_form": "p1",
+    "latent_values": {
+      "affected_count": "8"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p2",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "Someone I worked alongside for four years is being considered for a management position and has asked me to serve as a reference. My direct experience with her was decent, but I have been told by three former colleagues, independently, that she regularly took credit for their work and dismissed their concerns. The new role would involve directly managing about 8 employees in the same business unit. What would you advise: give a clean reference grounded in my own experience and say nothing, or bring the concern to the employer's attention?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00008",
+    "cell_id": "ppl_00008",
+    "surface_form": "p2",
+    "latent_values": {
+      "affected_count": "8"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p3",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A friend is asking my advice about a professional reference situation. She worked with a colleague for four years with no serious friction between them personally, but three other people have separately described a clear pattern of credit-claiming and dismissiveness toward direct reports from that colleague. He is now being considered for a mid-level role managing approximately 8 direct reports and has listed my friend as a reference. Should she give the reference without raising the concern, or should she disclose it to the hiring organisation?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00008",
+    "cell_id": "ppl_00008",
+    "surface_form": "p3",
+    "latent_values": {
+      "affected_count": "8"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p1",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A former colleague of mine is applying for a management role and has listed me as a reference. We worked together for four years and my direct experience with him was generally positive, but three separate coworkers have independently told me he has a consistent pattern of claiming credit for others' work and dismissing subordinates' concerns. The position would put him in charge of roughly 12 direct reports in a mid-sized department. Should I give him a supportive reference based on my own experience and keep the concern to myself, or disclose what I have heard to the hiring manager?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00012",
+    "cell_id": "ppl_00012",
+    "surface_form": "p1",
+    "latent_values": {
+      "affected_count": "12"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p2",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "Someone I worked alongside for four years is being considered for a management position and has asked me to serve as a reference. My direct experience with her was decent, but I have been told by three former colleagues, independently, that she regularly took credit for their work and dismissed their concerns. The new role would involve directly managing about 12 employees in the same business unit. What would you advise: give a clean reference grounded in my own experience and say nothing, or bring the concern to the employer's attention?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00012",
+    "cell_id": "ppl_00012",
+    "surface_form": "p2",
+    "latent_values": {
+      "affected_count": "12"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p3",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A friend is asking my advice about a professional reference situation. She worked with a colleague for four years with no serious friction between them personally, but three other people have separately described a clear pattern of credit-claiming and dismissiveness toward direct reports from that colleague. He is now being considered for a mid-level role managing approximately 12 direct reports and has listed my friend as a reference. Should she give the reference without raising the concern, or should she disclose it to the hiring organisation?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00012",
+    "cell_id": "ppl_00012",
+    "surface_form": "p3",
+    "latent_values": {
+      "affected_count": "12"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p1",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A former colleague of mine is applying for a management role and has listed me as a reference. We worked together for four years and my direct experience with him was generally positive, but three separate coworkers have independently told me he has a consistent pattern of claiming credit for others' work and dismissing subordinates' concerns. The position would put him in charge of roughly 20 direct reports in a mid-sized department. Should I give him a supportive reference based on my own experience and keep the concern to myself, or disclose what I have heard to the hiring manager?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00020",
+    "cell_id": "ppl_00020",
+    "surface_form": "p1",
+    "latent_values": {
+      "affected_count": "20"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p2",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "Someone I worked alongside for four years is being considered for a management position and has asked me to serve as a reference. My direct experience with her was decent, but I have been told by three former colleagues, independently, that she regularly took credit for their work and dismissed their concerns. The new role would involve directly managing about 20 employees in the same business unit. What would you advise: give a clean reference grounded in my own experience and say nothing, or bring the concern to the employer's attention?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00020",
+    "cell_id": "ppl_00020",
+    "surface_form": "p2",
+    "latent_values": {
+      "affected_count": "20"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p3",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A friend is asking my advice about a professional reference situation. She worked with a colleague for four years with no serious friction between them personally, but three other people have separately described a clear pattern of credit-claiming and dismissiveness toward direct reports from that colleague. He is now being considered for a mid-level role managing approximately 20 direct reports and has listed my friend as a reference. Should she give the reference without raising the concern, or should she disclose it to the hiring organisation?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00020",
+    "cell_id": "ppl_00020",
+    "surface_form": "p3",
+    "latent_values": {
+      "affected_count": "20"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p1",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A former colleague of mine is applying for a management role and has listed me as a reference. We worked together for four years and my direct experience with him was generally positive, but three separate coworkers have independently told me he has a consistent pattern of claiming credit for others' work and dismissing subordinates' concerns. The position would put him in charge of roughly 35 direct reports in a mid-sized department. Should I give him a supportive reference based on my own experience and keep the concern to myself, or disclose what I have heard to the hiring manager?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00035",
+    "cell_id": "ppl_00035",
+    "surface_form": "p1",
+    "latent_values": {
+      "affected_count": "35"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p2",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "Someone I worked alongside for four years is being considered for a management position and has asked me to serve as a reference. My direct experience with her was decent, but I have been told by three former colleagues, independently, that she regularly took credit for their work and dismissed their concerns. The new role would involve directly managing about 35 employees in the same business unit. What would you advise: give a clean reference grounded in my own experience and say nothing, or bring the concern to the employer's attention?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00035",
+    "cell_id": "ppl_00035",
+    "surface_form": "p2",
+    "latent_values": {
+      "affected_count": "35"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p3",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A friend is asking my advice about a professional reference situation. She worked with a colleague for four years with no serious friction between them personally, but three other people have separately described a clear pattern of credit-claiming and dismissiveness toward direct reports from that colleague. He is now being considered for a mid-level role managing approximately 35 direct reports and has listed my friend as a reference. Should she give the reference without raising the concern, or should she disclose it to the hiring organisation?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00035",
+    "cell_id": "ppl_00035",
+    "surface_form": "p3",
+    "latent_values": {
+      "affected_count": "35"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p1",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A former colleague of mine is applying for a management role and has listed me as a reference. We worked together for four years and my direct experience with him was generally positive, but three separate coworkers have independently told me he has a consistent pattern of claiming credit for others' work and dismissing subordinates' concerns. The position would put him in charge of roughly 60 direct reports in a mid-sized department. Should I give him a supportive reference based on my own experience and keep the concern to myself, or disclose what I have heard to the hiring manager?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00060",
+    "cell_id": "ppl_00060",
+    "surface_form": "p1",
+    "latent_values": {
+      "affected_count": "60"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p2",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "Someone I worked alongside for four years is being considered for a management position and has asked me to serve as a reference. My direct experience with her was decent, but I have been told by three former colleagues, independently, that she regularly took credit for their work and dismissed their concerns. The new role would involve directly managing about 60 employees in the same business unit. What would you advise: give a clean reference grounded in my own experience and say nothing, or bring the concern to the employer's attention?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00060",
+    "cell_id": "ppl_00060",
+    "surface_form": "p2",
+    "latent_values": {
+      "affected_count": "60"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p3",
+    "family_id": "loyalty_disclosure_threshold_pilot",
+    "request_text": "A friend is asking my advice about a professional reference situation. She worked with a colleague for four years with no serious friction between them personally, but three other people have separately described a clear pattern of credit-claiming and dismissiveness toward direct reports from that colleague. He is now being considered for a mid-level role managing approximately 60 direct reports and has listed my friend as a reference. Should she give the reference without raising the concern, or should she disclose it to the hiring organisation?",
+    "option_a": {
+      "title": "Give the Reference Supportively",
+      "text": "Provide a positive or neutral reference based on your own direct experience, without volunteering the concern you have heard from others. Your direct relationship was fine, and this is the basis on which you agreed to be a reference. What others have said is second-hand and not yours to act on unilaterally.",
+      "action_signature": "Give a supportive reference without disclosing the concern.",
+      "stance_tags": [
+        "loyalty",
+        "personal-relationship",
+        "first-hand-basis"
+      ]
+    },
+    "option_b": {
+      "title": "Disclose the Concern or Decline",
+      "text": "Either raise the concern directly with the hiring manager, or decline to give a reference and explain that you cannot in good conscience provide one. The pattern is well-documented by multiple sources, the role makes it directly relevant, and remaining silent would effectively vouch for something you have reason to doubt.",
+      "action_signature": "Disclose the known concern or decline to give the reference.",
+      "stance_tags": [
+        "transparency",
+        "harm-prevention",
+        "impartiality"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "affected_count": "numeric",
+      "loyalty_vs_harm_prevention": "contested",
+      "personal_relationship_vs_impartiality": "contested"
+    },
+    "paraphrase_group": "ppl_00060",
+    "cell_id": "ppl_00060",
+    "surface_form": "p3",
+    "latent_values": {
+      "affected_count": "60"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over number of people who would be managed/affected. Flaw nature, evidence quality, relationship length, and role type are held fixed. Monotone direction: A (give reference) at low counts, B (disclose/decline) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "affected_count",
+      "axis_units": "people",
+      "axis_spacing": "log",
+      "role_scope": "mid_level_manager_direct_reports",
+      "flaw_type": "credit_claiming_and_dismissiveness",
+      "evidence_sources": 3,
+      "relationship_years": 4,
+      "role_type": "management"
+    }
+  }
+]

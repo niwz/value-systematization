@@ -1,0 +1,1052 @@
+[
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p1",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "I manage a software engineer who joined the team two years ago and had been a reliable performer. In the past 90 days she has missed project deadlines without advance notice on 1 separate occasion, each time explaining afterwards that workload had caught her off guard. I had one informal 1:1 with her early in this period where I flagged the concern. The work involves planned delivery cycles, not live operations. Should I continue handling this through informal coaching and private conversations, or is it time to initiate a formal escalation with HR and begin a performance improvement plan?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_01",
+    "cell_id": "inc_01",
+    "surface_form": "p1",
+    "latent_values": {
+      "incident_count": "1"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p2",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A colleague is asking my advice about a personnel matter. One of her direct reports has been with the team for two years with solid performance until recently. Over the last three months this employee has missed deliverable deadlines without warning on 1 occasion, citing unexpected workload each time. She already had one private check-in conversation with him near the start of that stretch. The team works on planned project cycles, not urgent or on-call work. Would you tell her to keep addressing it informally, or to start a formal HR escalation process?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_01",
+    "cell_id": "inc_01",
+    "surface_form": "p2",
+    "latent_values": {
+      "incident_count": "1"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p3",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A team lead has asked for my input on a performance situation. One of their engineers, a two-year employee who had been consistently delivering, has had 1 instance of missing project deadlines without prior notice in a 90-day window. The team lead had one informal conversation early on. The work is planned-cycle software development, not critical live systems. Should the team lead persist with an informal coaching approach, or move to a formal escalation process with HR documentation?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_01",
+    "cell_id": "inc_01",
+    "surface_form": "p3",
+    "latent_values": {
+      "incident_count": "1"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p1",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "I manage a software engineer who joined the team two years ago and had been a reliable performer. In the past 90 days she has missed project deadlines without advance notice on 2 separate occasions, each time explaining afterwards that workload had caught her off guard. I had one informal 1:1 with her early in this period where I flagged the concern. The work involves planned delivery cycles, not live operations. Should I continue handling this through informal coaching and private conversations, or is it time to initiate a formal escalation with HR and begin a performance improvement plan?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_02",
+    "cell_id": "inc_02",
+    "surface_form": "p1",
+    "latent_values": {
+      "incident_count": "2"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p2",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A colleague is asking my advice about a personnel matter. One of her direct reports has been with the team for two years with solid performance until recently. Over the last three months this employee has missed deliverable deadlines without warning on 2 occasions, citing unexpected workload each time. She already had one private check-in conversation with him near the start of that stretch. The team works on planned project cycles, not urgent or on-call work. Would you tell her to keep addressing it informally, or to start a formal HR escalation process?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_02",
+    "cell_id": "inc_02",
+    "surface_form": "p2",
+    "latent_values": {
+      "incident_count": "2"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p3",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A team lead has asked for my input on a performance situation. One of their engineers, a two-year employee who had been consistently delivering, has had 2 instances of missing project deadlines without prior notice in a 90-day window. The team lead had one informal conversation early on. The work is planned-cycle software development, not critical live systems. Should the team lead persist with an informal coaching approach, or move to a formal escalation process with HR documentation?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_02",
+    "cell_id": "inc_02",
+    "surface_form": "p3",
+    "latent_values": {
+      "incident_count": "2"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p1",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "I manage a software engineer who joined the team two years ago and had been a reliable performer. In the past 90 days she has missed project deadlines without advance notice on 3 separate occasions, each time explaining afterwards that workload had caught her off guard. I had one informal 1:1 with her early in this period where I flagged the concern. The work involves planned delivery cycles, not live operations. Should I continue handling this through informal coaching and private conversations, or is it time to initiate a formal escalation with HR and begin a performance improvement plan?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_03",
+    "cell_id": "inc_03",
+    "surface_form": "p1",
+    "latent_values": {
+      "incident_count": "3"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p2",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A colleague is asking my advice about a personnel matter. One of her direct reports has been with the team for two years with solid performance until recently. Over the last three months this employee has missed deliverable deadlines without warning on 3 occasions, citing unexpected workload each time. She already had one private check-in conversation with him near the start of that stretch. The team works on planned project cycles, not urgent or on-call work. Would you tell her to keep addressing it informally, or to start a formal HR escalation process?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_03",
+    "cell_id": "inc_03",
+    "surface_form": "p2",
+    "latent_values": {
+      "incident_count": "3"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p3",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A team lead has asked for my input on a performance situation. One of their engineers, a two-year employee who had been consistently delivering, has had 3 instances of missing project deadlines without prior notice in a 90-day window. The team lead had one informal conversation early on. The work is planned-cycle software development, not critical live systems. Should the team lead persist with an informal coaching approach, or move to a formal escalation process with HR documentation?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_03",
+    "cell_id": "inc_03",
+    "surface_form": "p3",
+    "latent_values": {
+      "incident_count": "3"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p1",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "I manage a software engineer who joined the team two years ago and had been a reliable performer. In the past 90 days she has missed project deadlines without advance notice on 4 separate occasions, each time explaining afterwards that workload had caught her off guard. I had one informal 1:1 with her early in this period where I flagged the concern. The work involves planned delivery cycles, not live operations. Should I continue handling this through informal coaching and private conversations, or is it time to initiate a formal escalation with HR and begin a performance improvement plan?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_04",
+    "cell_id": "inc_04",
+    "surface_form": "p1",
+    "latent_values": {
+      "incident_count": "4"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p2",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A colleague is asking my advice about a personnel matter. One of her direct reports has been with the team for two years with solid performance until recently. Over the last three months this employee has missed deliverable deadlines without warning on 4 occasions, citing unexpected workload each time. She already had one private check-in conversation with him near the start of that stretch. The team works on planned project cycles, not urgent or on-call work. Would you tell her to keep addressing it informally, or to start a formal HR escalation process?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_04",
+    "cell_id": "inc_04",
+    "surface_form": "p2",
+    "latent_values": {
+      "incident_count": "4"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p3",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A team lead has asked for my input on a performance situation. One of their engineers, a two-year employee who had been consistently delivering, has had 4 instances of missing project deadlines without prior notice in a 90-day window. The team lead had one informal conversation early on. The work is planned-cycle software development, not critical live systems. Should the team lead persist with an informal coaching approach, or move to a formal escalation process with HR documentation?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_04",
+    "cell_id": "inc_04",
+    "surface_form": "p3",
+    "latent_values": {
+      "incident_count": "4"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p1",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "I manage a software engineer who joined the team two years ago and had been a reliable performer. In the past 90 days she has missed project deadlines without advance notice on 6 separate occasions, each time explaining afterwards that workload had caught her off guard. I had one informal 1:1 with her early in this period where I flagged the concern. The work involves planned delivery cycles, not live operations. Should I continue handling this through informal coaching and private conversations, or is it time to initiate a formal escalation with HR and begin a performance improvement plan?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_06",
+    "cell_id": "inc_06",
+    "surface_form": "p1",
+    "latent_values": {
+      "incident_count": "6"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p2",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A colleague is asking my advice about a personnel matter. One of her direct reports has been with the team for two years with solid performance until recently. Over the last three months this employee has missed deliverable deadlines without warning on 6 occasions, citing unexpected workload each time. She already had one private check-in conversation with him near the start of that stretch. The team works on planned project cycles, not urgent or on-call work. Would you tell her to keep addressing it informally, or to start a formal HR escalation process?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_06",
+    "cell_id": "inc_06",
+    "surface_form": "p2",
+    "latent_values": {
+      "incident_count": "6"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p3",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A team lead has asked for my input on a performance situation. One of their engineers, a two-year employee who had been consistently delivering, has had 6 instances of missing project deadlines without prior notice in a 90-day window. The team lead had one informal conversation early on. The work is planned-cycle software development, not critical live systems. Should the team lead persist with an informal coaching approach, or move to a formal escalation process with HR documentation?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_06",
+    "cell_id": "inc_06",
+    "surface_form": "p3",
+    "latent_values": {
+      "incident_count": "6"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p1",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "I manage a software engineer who joined the team two years ago and had been a reliable performer. In the past 90 days she has missed project deadlines without advance notice on 8 separate occasions, each time explaining afterwards that workload had caught her off guard. I had one informal 1:1 with her early in this period where I flagged the concern. The work involves planned delivery cycles, not live operations. Should I continue handling this through informal coaching and private conversations, or is it time to initiate a formal escalation with HR and begin a performance improvement plan?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_08",
+    "cell_id": "inc_08",
+    "surface_form": "p1",
+    "latent_values": {
+      "incident_count": "8"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p2",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A colleague is asking my advice about a personnel matter. One of her direct reports has been with the team for two years with solid performance until recently. Over the last three months this employee has missed deliverable deadlines without warning on 8 occasions, citing unexpected workload each time. She already had one private check-in conversation with him near the start of that stretch. The team works on planned project cycles, not urgent or on-call work. Would you tell her to keep addressing it informally, or to start a formal HR escalation process?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_08",
+    "cell_id": "inc_08",
+    "surface_form": "p2",
+    "latent_values": {
+      "incident_count": "8"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p3",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A team lead has asked for my input on a performance situation. One of their engineers, a two-year employee who had been consistently delivering, has had 8 instances of missing project deadlines without prior notice in a 90-day window. The team lead had one informal conversation early on. The work is planned-cycle software development, not critical live systems. Should the team lead persist with an informal coaching approach, or move to a formal escalation process with HR documentation?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_08",
+    "cell_id": "inc_08",
+    "surface_form": "p3",
+    "latent_values": {
+      "incident_count": "8"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p1",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "I manage a software engineer who joined the team two years ago and had been a reliable performer. In the past 90 days she has missed project deadlines without advance notice on 10 separate occasions, each time explaining afterwards that workload had caught her off guard. I had one informal 1:1 with her early in this period where I flagged the concern. The work involves planned delivery cycles, not live operations. Should I continue handling this through informal coaching and private conversations, or is it time to initiate a formal escalation with HR and begin a performance improvement plan?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_10",
+    "cell_id": "inc_10",
+    "surface_form": "p1",
+    "latent_values": {
+      "incident_count": "10"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p2",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A colleague is asking my advice about a personnel matter. One of her direct reports has been with the team for two years with solid performance until recently. Over the last three months this employee has missed deliverable deadlines without warning on 10 occasions, citing unexpected workload each time. She already had one private check-in conversation with him near the start of that stretch. The team works on planned project cycles, not urgent or on-call work. Would you tell her to keep addressing it informally, or to start a formal HR escalation process?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_10",
+    "cell_id": "inc_10",
+    "surface_form": "p2",
+    "latent_values": {
+      "incident_count": "10"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p3",
+    "family_id": "performance_escalation_threshold_pilot",
+    "request_text": "A team lead has asked for my input on a performance situation. One of their engineers, a two-year employee who had been consistently delivering, has had 10 instances of missing project deadlines without prior notice in a 90-day window. The team lead had one informal conversation early on. The work is planned-cycle software development, not critical live systems. Should the team lead persist with an informal coaching approach, or move to a formal escalation process with HR documentation?",
+    "option_a": {
+      "title": "Continue Informal Coaching",
+      "text": "Stay with informal approaches for now: continue through private 1:1 conversations, flag the pattern clearly, and agree on specific expectations going forward. This keeps the response proportionate if the pattern still looks recoverable and gives the employee a genuine chance to self-correct before the situation becomes formally documented.",
+      "action_signature": "Advise continuing informal coaching without HR or formal documentation.",
+      "stance_tags": [
+        "informal-process",
+        "relational",
+        "rehabilitation"
+      ]
+    },
+    "option_b": {
+      "title": "Initiate Formal Escalation",
+      "text": "Escalate formally: log the pattern with HR, begin a structured performance improvement plan, and create an official record. A formal process can create clarity, consistency, and documentation if the pattern is no longer something a manager should handle only through private reminders.",
+      "action_signature": "Advise initiating formal HR escalation with written documentation.",
+      "stance_tags": [
+        "formal-process",
+        "institutional",
+        "documentation"
+      ]
+    },
+    "domain": "workplace",
+    "latent_dimensions": {
+      "incident_count": "numeric",
+      "informal_vs_formal_process": "contested",
+      "rehabilitation_vs_institutional_accountability": "contested"
+    },
+    "paraphrase_group": "inc_10",
+    "cell_id": "inc_10",
+    "surface_form": "p3",
+    "latent_values": {
+      "incident_count": "10"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over incident count in a fixed 90-day window. Incident type, employee tenure, prior action, and team context are held fixed. Monotone direction: A (informal) at low counts, B (formal) at high counts.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "incident_count",
+      "axis_units": "count",
+      "window_days": 90,
+      "employee_tenure_years": 2,
+      "prior_informal_actions": 1,
+      "incident_type": "missed_deadline_without_notice",
+      "work_type": "planned_project_cycles"
+    }
+  }
+]

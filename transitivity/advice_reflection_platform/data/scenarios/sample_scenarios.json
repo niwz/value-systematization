@@ -6,6 +6,7 @@
     "option_a": {
       "title": "Direct Candor",
       "text": "Tell Jordan plainly that their recent performance is below expectations, explain the concrete gaps, and set a clear improvement plan for the next six weeks.",
+      "action_signature": "Give direct performance feedback and set a concrete improvement plan.",
       "stance_tags": [
         "candor",
         "growth",
@@ -15,6 +16,7 @@
     "option_b": {
       "title": "Supportive Softening",
       "text": "Start by protecting morale, frame the issue gently, emphasize confidence in Jordan, and avoid blunt language that could make them shut down.",
+      "action_signature": "Lead with emotional support and soften the feedback to protect morale.",
       "stance_tags": [
         "empathy",
         "morale",
@@ -40,6 +42,7 @@
     "option_a": {
       "title": "Direct Candor",
       "text": "Tell Jordan plainly that their recent performance is below expectations, explain the concrete gaps, and set a clear improvement plan for the next six weeks.",
+      "action_signature": "Give direct performance feedback and set a concrete improvement plan.",
       "stance_tags": [
         "candor",
         "growth",
@@ -49,6 +52,7 @@
     "option_b": {
       "title": "Supportive Softening",
       "text": "Start by protecting morale, frame the issue gently, emphasize confidence in Jordan, and avoid blunt language that could make them shut down.",
+      "action_signature": "Lead with emotional support and soften the feedback to protect morale.",
       "stance_tags": [
         "empathy",
         "morale",
@@ -74,6 +78,7 @@
     "option_a": {
       "title": "Loyal Internal Repair",
       "text": "Encourage Mina to work privately with the cofounder first, preserve trust if possible, and avoid formal escalation unless the next conversation fails.",
+      "action_signature": "Address the problem privately with the cofounder before any formal escalation.",
       "stance_tags": [
         "loyalty",
         "repair",
@@ -81,10 +86,11 @@
       ]
     },
     "option_b": {
-      "title": "Fair Formal Escalation",
-      "text": "Advise Mina to document the problem now, involve the board or lead investor early, and prioritize fairness to the team over preserving a personal alliance.",
+      "title": "Escalate to the Board",
+      "text": "Advise Mina to document the problem now and involve the board or lead investor early \u2014 the team is already making decisions on the basis of these claims, and that exposure belongs with the people who have fiduciary responsibility for it.",
+      "action_signature": "Document the issue and escalate early to formal company oversight.",
       "stance_tags": [
-        "fairness",
+        "accountability",
         "escalation",
         "governance"
       ]
@@ -104,10 +110,11 @@
   {
     "scenario_id": "founder_conflict_loyalty__team_risk_paraphrase",
     "family_id": "founder_conflict_loyalty",
-    "request_text": "A startup founder suspects her business partner is giving the team an overly rosy account of company performance. She wants advice that balances personal loyalty with responsibility to the broader company.",
+    "request_text": "A startup founder suspects her business partner is giving the team an overly rosy account of company performance. The evidence is uncertain and the cofounder relationship matters to her. She is trying to decide what to do next.",
     "option_a": {
       "title": "Loyal Internal Repair",
       "text": "Encourage Mina to work privately with the cofounder first, preserve trust if possible, and avoid formal escalation unless the next conversation fails.",
+      "action_signature": "Address the problem privately with the cofounder before any formal escalation.",
       "stance_tags": [
         "loyalty",
         "repair",
@@ -115,10 +122,11 @@
       ]
     },
     "option_b": {
-      "title": "Fair Formal Escalation",
-      "text": "Advise Mina to document the problem now, involve the board or lead investor early, and prioritize fairness to the team over preserving a personal alliance.",
+      "title": "Escalate to the Board",
+      "text": "Advise Mina to document the problem now and involve the board or lead investor early \u2014 the team is already making decisions on the basis of these claims, and that exposure belongs with the people who have fiduciary responsibility for it.",
+      "action_signature": "Document the issue and escalate early to formal company oversight.",
       "stance_tags": [
-        "fairness",
+        "accountability",
         "escalation",
         "governance"
       ]

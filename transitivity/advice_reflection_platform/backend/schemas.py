@@ -14,6 +14,7 @@ def utc_now_iso() -> str:
 class AdviceOption:
     title: str
     text: str
+    action_signature: str = ""
     stance_tags: list[str] = field(default_factory=list)
 
     @classmethod
@@ -21,6 +22,7 @@ class AdviceOption:
         return cls(
             title=str(payload.get("title", "")).strip(),
             text=str(payload.get("text", "")).strip(),
+            action_signature=str(payload.get("action_signature", "")).strip(),
             stance_tags=[str(item) for item in payload.get("stance_tags", [])],
         )
 
@@ -28,6 +30,7 @@ class AdviceOption:
         return {
             "title": self.title,
             "text": self.text,
+            "action_signature": self.action_signature,
             "stance_tags": list(self.stance_tags),
         }
 
@@ -42,6 +45,11 @@ class ScenarioRecord:
     domain: str
     latent_dimensions: dict[str, str]
     paraphrase_group: str
+    cell_id: str = ""
+    surface_form: str = ""
+    latent_values: dict[str, str] = field(default_factory=dict)
+    anchor_type: str = ""
+    boundary_band: str = ""
     notes: str = ""
     metadata: dict[str, Any] = field(default_factory=dict)
 
@@ -56,6 +64,11 @@ class ScenarioRecord:
             domain=str(payload.get("domain", "")).strip(),
             latent_dimensions={str(key): str(value) for key, value in payload.get("latent_dimensions", {}).items()},
             paraphrase_group=str(payload.get("paraphrase_group", "")).strip(),
+            cell_id=str(payload.get("cell_id", "")).strip(),
+            surface_form=str(payload.get("surface_form", "")).strip(),
+            latent_values={str(key): str(value) for key, value in payload.get("latent_values", {}).items()},
+            anchor_type=str(payload.get("anchor_type", "")).strip(),
+            boundary_band=str(payload.get("boundary_band", "")).strip(),
             notes=str(payload.get("notes", "")).strip(),
             metadata=dict(payload.get("metadata", {})),
         )
@@ -70,6 +83,11 @@ class ScenarioRecord:
             "domain": self.domain,
             "latent_dimensions": dict(self.latent_dimensions),
             "paraphrase_group": self.paraphrase_group,
+            "cell_id": self.cell_id,
+            "surface_form": self.surface_form,
+            "latent_values": dict(self.latent_values),
+            "anchor_type": self.anchor_type,
+            "boundary_band": self.boundary_band,
             "notes": self.notes,
             "metadata": dict(self.metadata),
         }
@@ -79,10 +97,48 @@ class ScenarioRecord:
 class RunCondition:
     name: str
     system_prompt: str
+    run_mode: str = "structured_ab"
     reflection_prompt: str | None = None
+    parser_model_name: str = "openai/gpt-4.1-mini"
     max_tokens: int = 800
     temperature: float = 0.0
     thinking: bool = False
+    thinking_budget_tokens: int = 8000
+    thinking_effort: str | None = None
+
+
+@dataclass(slots=True)
+class FamilyPilotJob:
+    family_id: str
+    exemplar_cell_ids: list[str]
+    held_out_cell_ids: list[str]
+    condition: str
+    presentation_order: str
+    repeat_idx: int
+    model_name: str
+
+    @classmethod
+    def from_dict(cls, payload: dict[str, Any]) -> "FamilyPilotJob":
+        return cls(
+            family_id=str(payload["family_id"]).strip(),
+            exemplar_cell_ids=[str(item).strip() for item in payload.get("exemplar_cell_ids", [])],
+            held_out_cell_ids=[str(item).strip() for item in payload.get("held_out_cell_ids", [])],
+            condition=str(payload["condition"]).strip(),
+            presentation_order=str(payload.get("presentation_order", "AB")).strip().upper(),
+            repeat_idx=int(payload.get("repeat_idx", 1)),
+            model_name=str(payload["model_name"]).strip(),
+        )
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "family_id": self.family_id,
+            "exemplar_cell_ids": list(self.exemplar_cell_ids),
+            "held_out_cell_ids": list(self.held_out_cell_ids),
+            "condition": self.condition,
+            "presentation_order": self.presentation_order,
+            "repeat_idx": self.repeat_idx,
+            "model_name": self.model_name,
+        }
 
 
 @dataclass(slots=True)
@@ -126,6 +182,7 @@ class RunRecord:
     domain: str
     model_name: str
     condition: str
+    run_mode: str
     presentation_order: str
     repeat_idx: int
     prompt_text: str
@@ -135,10 +192,27 @@ class RunRecord:
     parsed: ParsedChoice
     option_a_title: str
     option_b_title: str
+    cell_id: str = ""
+    surface_form: str = ""
+    latent_values: dict[str, str] = field(default_factory=dict)
+    anchor_type: str = ""
+    boundary_band: str = ""
+    advice_text: str = ""
+    recommendation_text: str = ""
+    parser_model_name: str = ""
+    parser_raw_response: str = ""
+    parser_confidence: float | None = None
+    mixed_or_conditional: bool = False
+    parser_secondary_fit: str | None = None
+    parser_primary_action_summary: str = ""
+    parser_why_not_clean_fit: str = ""
     input_tokens: int = 0
     output_tokens: int = 0
     thinking_text: str = ""
     thinking: bool = False
+    thinking_budget_tokens: int | None = None
+    thinking_effort: str | None = None
+    family_rule_text: str = ""
     timestamp: str = field(default_factory=utc_now_iso)
     run_id: str = field(default_factory=lambda: uuid4().hex)
     metadata: dict[str, Any] = field(default_factory=dict)
@@ -148,6 +222,8 @@ class RunRecord:
         final_choice = self.parsed.final_choice
         if final_choice not in {"A", "B"}:
             return None
+        if self.run_mode == "open_advice":
+            return final_choice
         if self.presentation_order == "AB":
             return final_choice
         return "B" if final_choice == "A" else "A"
@@ -162,12 +238,27 @@ class RunRecord:
             "domain": self.domain,
             "model_name": self.model_name,
             "condition": self.condition,
+            "run_mode": self.run_mode,
             "presentation_order": self.presentation_order,
             "repeat_idx": self.repeat_idx,
+            "cell_id": self.cell_id,
+            "surface_form": self.surface_form,
+            "latent_values": dict(self.latent_values),
+            "anchor_type": self.anchor_type,
+            "boundary_band": self.boundary_band,
             "prompt_text": self.prompt_text,
             "request_text": self.request_text,
             "reflection_text": self.reflection_text,
             "raw_response": self.raw_response,
+            "advice_text": self.advice_text,
+            "recommendation_text": self.recommendation_text,
+            "parser_model_name": self.parser_model_name,
+            "parser_raw_response": self.parser_raw_response,
+            "parser_confidence": self.parser_confidence,
+            "mixed_or_conditional": self.mixed_or_conditional,
+            "parser_secondary_fit": self.parser_secondary_fit,
+            "parser_primary_action_summary": self.parser_primary_action_summary,
+            "parser_why_not_clean_fit": self.parser_why_not_clean_fit,
             "option_a_title": self.option_a_title,
             "option_b_title": self.option_b_title,
             "first_choice": self.parsed.first_choice,
@@ -181,6 +272,9 @@ class RunRecord:
             "output_tokens": self.output_tokens,
             "thinking_text": self.thinking_text,
             "thinking": self.thinking,
+            "thinking_budget_tokens": self.thinking_budget_tokens,
+            "thinking_effort": self.thinking_effort,
+            "family_rule_text": self.family_rule_text,
             "metadata": dict(self.metadata),
         }
 

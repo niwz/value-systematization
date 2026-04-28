@@ -4,9 +4,12 @@ version = "0.1.0"
 description = "MVP scaffold for studying value shifts under reflection"
 requires-python = ">=3.10"
 dependencies = [
-  "streamlit>=1.32",
+  "numpy>=2.0",
+  "pandas>=2.0",
 ]
 
-[tool.setuptools]
-packages = ["advice_reflection_platform"]
+[project.optional-dependencies]
+ui = ["streamlit>=1.32"]
 
+[tool.setuptools.packages.find]
+include = ["advice_reflection_platform*"]

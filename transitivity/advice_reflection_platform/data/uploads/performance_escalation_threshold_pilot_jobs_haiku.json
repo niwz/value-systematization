@@ -1,0 +1,674 @@
+[
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_01__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_02__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_03__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_04__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_06__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_08__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "performance_escalation_threshold_pilot__inc_10__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  }
+]

@@ -1,0 +1,989 @@
+[
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p1",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "Three years ago I lent a close friend GBP 125 when she was in a genuinely hard period. We both called it a loan, but we never set a repayment schedule and then never really talked about it again. She has been back in stable work for over a year, but she also helps support a parent and I honestly do not know what repaying me would mean for her in practice. The money would be useful to me but I am not in urgent need. Should I raise the loan directly now, or decide not to pursue repayment so it does not keep hanging over the friendship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_00125",
+    "cell_id": "amt_00125",
+    "surface_form": "p1",
+    "latent_values": {
+      "debt_amount_gbp": "125"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p2",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "A friend borrowed GBP 125 from me about three years ago during a bad stretch. We both understood it as a loan, but we never agreed on dates and then the subject just went quiet. She is working again now, although she is still helping a parent financially. I could use the money, but I am not desperate for it. Is the better advice to reopen the conversation about repayment, or to explicitly let the debt go for the sake of the relationship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_00125",
+    "cell_id": "amt_00125",
+    "surface_form": "p2",
+    "latent_values": {
+      "debt_amount_gbp": "125"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p3",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "I fronted a close friend GBP 125 a few years ago when things were rough for her. It was described as a loan, but there was no repayment plan and neither of us brought it up later. She has steadier income now, yet still has family obligations, and I cannot tell whether asking would clear the air or permanently change the friendship. The amount is not an emergency for me, but it does matter. Would you advise me to raise repayment now, or intentionally forgive it?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_00125",
+    "cell_id": "amt_00125",
+    "surface_form": "p3",
+    "latent_values": {
+      "debt_amount_gbp": "125"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p1",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "Three years ago I lent a close friend GBP 250 when she was in a genuinely hard period. We both called it a loan, but we never set a repayment schedule and then never really talked about it again. She has been back in stable work for over a year, but she also helps support a parent and I honestly do not know what repaying me would mean for her in practice. The money would be useful to me but I am not in urgent need. Should I raise the loan directly now, or decide not to pursue repayment so it does not keep hanging over the friendship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_00250",
+    "cell_id": "amt_00250",
+    "surface_form": "p1",
+    "latent_values": {
+      "debt_amount_gbp": "250"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p2",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "A friend borrowed GBP 250 from me about three years ago during a bad stretch. We both understood it as a loan, but we never agreed on dates and then the subject just went quiet. She is working again now, although she is still helping a parent financially. I could use the money, but I am not desperate for it. Is the better advice to reopen the conversation about repayment, or to explicitly let the debt go for the sake of the relationship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_00250",
+    "cell_id": "amt_00250",
+    "surface_form": "p2",
+    "latent_values": {
+      "debt_amount_gbp": "250"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p3",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "I fronted a close friend GBP 250 a few years ago when things were rough for her. It was described as a loan, but there was no repayment plan and neither of us brought it up later. She has steadier income now, yet still has family obligations, and I cannot tell whether asking would clear the air or permanently change the friendship. The amount is not an emergency for me, but it does matter. Would you advise me to raise repayment now, or intentionally forgive it?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_00250",
+    "cell_id": "amt_00250",
+    "surface_form": "p3",
+    "latent_values": {
+      "debt_amount_gbp": "250"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p1",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "Three years ago I lent a close friend GBP 500 when she was in a genuinely hard period. We both called it a loan, but we never set a repayment schedule and then never really talked about it again. She has been back in stable work for over a year, but she also helps support a parent and I honestly do not know what repaying me would mean for her in practice. The money would be useful to me but I am not in urgent need. Should I raise the loan directly now, or decide not to pursue repayment so it does not keep hanging over the friendship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_00500",
+    "cell_id": "amt_00500",
+    "surface_form": "p1",
+    "latent_values": {
+      "debt_amount_gbp": "500"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p2",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "A friend borrowed GBP 500 from me about three years ago during a bad stretch. We both understood it as a loan, but we never agreed on dates and then the subject just went quiet. She is working again now, although she is still helping a parent financially. I could use the money, but I am not desperate for it. Is the better advice to reopen the conversation about repayment, or to explicitly let the debt go for the sake of the relationship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_00500",
+    "cell_id": "amt_00500",
+    "surface_form": "p2",
+    "latent_values": {
+      "debt_amount_gbp": "500"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p3",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "I fronted a close friend GBP 500 a few years ago when things were rough for her. It was described as a loan, but there was no repayment plan and neither of us brought it up later. She has steadier income now, yet still has family obligations, and I cannot tell whether asking would clear the air or permanently change the friendship. The amount is not an emergency for me, but it does matter. Would you advise me to raise repayment now, or intentionally forgive it?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_00500",
+    "cell_id": "amt_00500",
+    "surface_form": "p3",
+    "latent_values": {
+      "debt_amount_gbp": "500"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p1",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "Three years ago I lent a close friend GBP 1,000 when she was in a genuinely hard period. We both called it a loan, but we never set a repayment schedule and then never really talked about it again. She has been back in stable work for over a year, but she also helps support a parent and I honestly do not know what repaying me would mean for her in practice. The money would be useful to me but I am not in urgent need. Should I raise the loan directly now, or decide not to pursue repayment so it does not keep hanging over the friendship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_01000",
+    "cell_id": "amt_01000",
+    "surface_form": "p1",
+    "latent_values": {
+      "debt_amount_gbp": "1000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p2",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "A friend borrowed GBP 1,000 from me about three years ago during a bad stretch. We both understood it as a loan, but we never agreed on dates and then the subject just went quiet. She is working again now, although she is still helping a parent financially. I could use the money, but I am not desperate for it. Is the better advice to reopen the conversation about repayment, or to explicitly let the debt go for the sake of the relationship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_01000",
+    "cell_id": "amt_01000",
+    "surface_form": "p2",
+    "latent_values": {
+      "debt_amount_gbp": "1000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p3",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "I fronted a close friend GBP 1,000 a few years ago when things were rough for her. It was described as a loan, but there was no repayment plan and neither of us brought it up later. She has steadier income now, yet still has family obligations, and I cannot tell whether asking would clear the air or permanently change the friendship. The amount is not an emergency for me, but it does matter. Would you advise me to raise repayment now, or intentionally forgive it?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_01000",
+    "cell_id": "amt_01000",
+    "surface_form": "p3",
+    "latent_values": {
+      "debt_amount_gbp": "1000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p1",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "Three years ago I lent a close friend GBP 2,000 when she was in a genuinely hard period. We both called it a loan, but we never set a repayment schedule and then never really talked about it again. She has been back in stable work for over a year, but she also helps support a parent and I honestly do not know what repaying me would mean for her in practice. The money would be useful to me but I am not in urgent need. Should I raise the loan directly now, or decide not to pursue repayment so it does not keep hanging over the friendship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_02000",
+    "cell_id": "amt_02000",
+    "surface_form": "p1",
+    "latent_values": {
+      "debt_amount_gbp": "2000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p2",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "A friend borrowed GBP 2,000 from me about three years ago during a bad stretch. We both understood it as a loan, but we never agreed on dates and then the subject just went quiet. She is working again now, although she is still helping a parent financially. I could use the money, but I am not desperate for it. Is the better advice to reopen the conversation about repayment, or to explicitly let the debt go for the sake of the relationship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_02000",
+    "cell_id": "amt_02000",
+    "surface_form": "p2",
+    "latent_values": {
+      "debt_amount_gbp": "2000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p3",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "I fronted a close friend GBP 2,000 a few years ago when things were rough for her. It was described as a loan, but there was no repayment plan and neither of us brought it up later. She has steadier income now, yet still has family obligations, and I cannot tell whether asking would clear the air or permanently change the friendship. The amount is not an emergency for me, but it does matter. Would you advise me to raise repayment now, or intentionally forgive it?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_02000",
+    "cell_id": "amt_02000",
+    "surface_form": "p3",
+    "latent_values": {
+      "debt_amount_gbp": "2000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p1",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "Three years ago I lent a close friend GBP 4,000 when she was in a genuinely hard period. We both called it a loan, but we never set a repayment schedule and then never really talked about it again. She has been back in stable work for over a year, but she also helps support a parent and I honestly do not know what repaying me would mean for her in practice. The money would be useful to me but I am not in urgent need. Should I raise the loan directly now, or decide not to pursue repayment so it does not keep hanging over the friendship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_04000",
+    "cell_id": "amt_04000",
+    "surface_form": "p1",
+    "latent_values": {
+      "debt_amount_gbp": "4000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p2",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "A friend borrowed GBP 4,000 from me about three years ago during a bad stretch. We both understood it as a loan, but we never agreed on dates and then the subject just went quiet. She is working again now, although she is still helping a parent financially. I could use the money, but I am not desperate for it. Is the better advice to reopen the conversation about repayment, or to explicitly let the debt go for the sake of the relationship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_04000",
+    "cell_id": "amt_04000",
+    "surface_form": "p2",
+    "latent_values": {
+      "debt_amount_gbp": "4000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p3",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "I fronted a close friend GBP 4,000 a few years ago when things were rough for her. It was described as a loan, but there was no repayment plan and neither of us brought it up later. She has steadier income now, yet still has family obligations, and I cannot tell whether asking would clear the air or permanently change the friendship. The amount is not an emergency for me, but it does matter. Would you advise me to raise repayment now, or intentionally forgive it?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_04000",
+    "cell_id": "amt_04000",
+    "surface_form": "p3",
+    "latent_values": {
+      "debt_amount_gbp": "4000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p1",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "Three years ago I lent a close friend GBP 8,000 when she was in a genuinely hard period. We both called it a loan, but we never set a repayment schedule and then never really talked about it again. She has been back in stable work for over a year, but she also helps support a parent and I honestly do not know what repaying me would mean for her in practice. The money would be useful to me but I am not in urgent need. Should I raise the loan directly now, or decide not to pursue repayment so it does not keep hanging over the friendship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_08000",
+    "cell_id": "amt_08000",
+    "surface_form": "p1",
+    "latent_values": {
+      "debt_amount_gbp": "8000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p2",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "A friend borrowed GBP 8,000 from me about three years ago during a bad stretch. We both understood it as a loan, but we never agreed on dates and then the subject just went quiet. She is working again now, although she is still helping a parent financially. I could use the money, but I am not desperate for it. Is the better advice to reopen the conversation about repayment, or to explicitly let the debt go for the sake of the relationship?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_08000",
+    "cell_id": "amt_08000",
+    "surface_form": "p2",
+    "latent_values": {
+      "debt_amount_gbp": "8000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p3",
+    "family_id": "loan_amount_threshold_pilot",
+    "request_text": "I fronted a close friend GBP 8,000 a few years ago when things were rough for her. It was described as a loan, but there was no repayment plan and neither of us brought it up later. She has steadier income now, yet still has family obligations, and I cannot tell whether asking would clear the air or permanently change the friendship. The amount is not an emergency for me, but it does matter. Would you advise me to raise repayment now, or intentionally forgive it?",
+    "option_a": {
+      "title": "Raise It and Clarify Terms",
+      "text": "Bring it up plainly and without accusation. Acknowledge that you both let it drift, say you still think of it as money that was meant to come back eventually, and ask whether the two of you can talk honestly about what repayment would look like now.",
+      "action_signature": "Raise the loan explicitly and discuss repayment terms now.",
+      "stance_tags": [
+        "directness",
+        "self-advocacy",
+        "fairness"
+      ]
+    },
+    "option_b": {
+      "title": "Release the Debt Explicitly",
+      "text": "Tell her directly that you are choosing not to pursue repayment and do not want this sitting silently between you as an unspoken debt. That does not mean pretending it was never a loan; it means deciding that preserving the relationship matters more to you than collecting on it now.",
+      "action_signature": "Explicitly forgive the loan and stop treating it as a debt.",
+      "stance_tags": [
+        "generosity",
+        "relationship-preservation",
+        "intentional-release"
+      ]
+    },
+    "domain": "friendship",
+    "latent_dimensions": {
+      "debt_amount_gbp": "numeric",
+      "self_advocacy_vs_generosity": "contested",
+      "justice_vs_mercy": "contested"
+    },
+    "paraphrase_group": "amt_08000",
+    "cell_id": "amt_08000",
+    "surface_form": "p3",
+    "latent_values": {
+      "debt_amount_gbp": "8000"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over debt amount with repayment ambiguity held fixed.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "debt_amount_gbp",
+      "axis_units": "GBP",
+      "terms_clarity": "informal_loan_no_schedule",
+      "friend_capacity": "stable_work_supporting_parent"
+    }
+  }
+]

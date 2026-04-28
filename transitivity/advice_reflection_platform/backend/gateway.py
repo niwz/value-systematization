@@ -22,6 +22,9 @@ class ModelGateway(Protocol):
         temperature: float = 0.0,
         metadata: dict[str, Any] | None = None,
         thinking: bool = False,
+        thinking_budget_tokens: int | None = None,
+        thinking_effort: str | None = None,
+        request_timeout_seconds: float | None = None,
     ) -> GatewayResponse:
         ...
 
@@ -42,6 +45,9 @@ class ReplayGateway:
         temperature: float = 0.0,
         metadata: dict[str, Any] | None = None,
         thinking: bool = False,
+        thinking_budget_tokens: int | None = None,
+        thinking_effort: str | None = None,
+        request_timeout_seconds: float | None = None,
     ) -> GatewayResponse:
         with self._lock:
             if not self._responses:
@@ -64,6 +70,9 @@ class HeuristicDemoGateway:
         temperature: float = 0.0,
         metadata: dict[str, Any] | None = None,
         thinking: bool = False,
+        thinking_budget_tokens: int | None = None,
+        thinking_effort: str | None = None,
+        request_timeout_seconds: float | None = None,
     ) -> GatewayResponse:
         metadata = metadata or {}
         phase = metadata.get("phase")
@@ -73,6 +82,74 @@ class HeuristicDemoGateway:
                 "and whether the adviser should privilege fairness over loyalty."
             )
             return GatewayResponse(raw_response=reflection_text, model_name=model_name, input_tokens=60, output_tokens=40)
+        if phase == "advice_turn":
+            return GatewayResponse(
+                raw_response=(
+                    "The central tradeoff is between protecting the relationship and addressing the underlying problem "
+                    "before it hardens into something worse. I would avoid a performative confrontation and focus on "
+                    "the action that best preserves long-run trust while still dealing with the issue."
+                ),
+                model_name=model_name,
+                input_tokens=90,
+                output_tokens=85,
+            )
+        if phase == "recommendation_turn":
+            digest = hashlib.sha256(prompt.encode("utf-8")).hexdigest()
+            choice = "A" if int(digest[:8], 16) % 2 == 0 else "B"
+            text = (
+                "My bottom-line recommendation is to take the first stance."
+                if choice == "A"
+                else "My bottom-line recommendation is to take the second stance."
+            )
+            return GatewayResponse(raw_response=text, model_name=model_name, input_tokens=40, output_tokens=25)
+        if phase == "family_rule_prompt":
+            return GatewayResponse(
+                raw_response=(
+                    "Prefer writing the reference when the mentee's recent setback is recoverable and the role is only a "
+                    "moderate stretch; decline when a qualified reference would predictably do more harm than a direct "
+                    "conversation."
+                ),
+                model_name=model_name,
+                input_tokens=120,
+                output_tokens=45,
+            )
+        if phase == "principle_gap_rule_prompt":
+            if metadata.get("condition") == "reflection":
+                text = (
+                    "Use informal coaching while the pattern still looks plausibly recoverable after a small number of misses, "
+                    "but switch to formal escalation once the repeated misses show that private reminders are no longer "
+                    "creating accountability."
+                )
+            else:
+                text = (
+                    "Start with informal coaching, then escalate formally once repeated missed deadlines show that the issue is "
+                    "no longer a one-off performance wobble."
+                )
+            return GatewayResponse(raw_response=text, model_name=model_name, input_tokens=110, output_tokens=44)
+        if phase == "principle_gap_threshold_prompt":
+            threshold_incident_count = 6 if metadata.get("condition") == "reflection" else 4
+            payload = {
+                "threshold_incident_count": threshold_incident_count,
+                "position": "within_range",
+                "reason": "That is the smallest count where I would switch from informal coaching to formal escalation.",
+            }
+            return GatewayResponse(
+                raw_response=json.dumps(payload),
+                model_name=model_name,
+                input_tokens=95,
+                output_tokens=28,
+            )
+        if phase == "parser_turn":
+            digest = hashlib.sha256(prompt.encode("utf-8")).hexdigest()
+            score = int(digest[:8], 16)
+            choice = "A" if score % 3 == 0 else "B" if score % 3 == 1 else "UNCLEAR"
+            payload = {
+                "choice": choice,
+                "reason": "The recommendation aligns more closely with the hidden stance definition.",
+                "confidence": 0.58 if choice == "UNCLEAR" else 0.81,
+                "mixed_or_conditional": choice == "UNCLEAR",
+            }
+            return GatewayResponse(raw_response=json.dumps(payload), model_name=model_name, input_tokens=120, output_tokens=55)
 
         digest = hashlib.sha256(prompt.encode("utf-8")).hexdigest()
         score = int(digest[:8], 16)
@@ -127,6 +204,9 @@ class LiveModelGateway:
         temperature: float = 0.0,
         metadata: dict[str, Any] | None = None,
         thinking: bool = False,
+        thinking_budget_tokens: int | None = None,
+        thinking_effort: str | None = None,
+        request_timeout_seconds: float | None = None,
     ) -> GatewayResponse:
         client, provider = self._client_for_model(model_name)
         payload = self._shared_api.call_text_response(
@@ -139,6 +219,9 @@ class LiveModelGateway:
             user_message=prompt,
             prior_messages=prior_messages,
             thinking=thinking,
+            thinking_budget_tokens=thinking_budget_tokens or 8000,
+            thinking_effort=thinking_effort,
+            request_timeout_seconds=request_timeout_seconds,
         )
         return GatewayResponse(
             raw_response=str(payload.get("raw_response", "")),
@@ -149,4 +232,3 @@ class LiveModelGateway:
             raw_payload=dict(payload),
             timestamp=str(payload.get("timestamp")) if payload.get("timestamp") else "",
         )
-

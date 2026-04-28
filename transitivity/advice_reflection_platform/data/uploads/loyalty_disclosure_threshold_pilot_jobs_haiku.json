@@ -1,0 +1,674 @@
+[
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00002__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00004__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00008__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00012__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00020__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00035__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loyalty_disclosure_threshold_pilot__ppl_00060__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  }
+]

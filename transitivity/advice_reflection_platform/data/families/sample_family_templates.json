@@ -8,6 +8,8 @@
     },
     "option_a_title": "Direct Candor",
     "option_b_title": "Supportive Softening",
+    "option_a_signature": "Give direct performance feedback and set a concrete improvement plan.",
+    "option_b_signature": "Lead with emotional support and soften the feedback to protect morale.",
     "option_a_template": "Tell {employee_name} plainly that their recent performance is below expectations, explain the concrete gaps, and set a clear improvement plan for the next {timeline}.",
     "option_b_template": "Start by protecting morale, frame the issue gently, emphasize confidence in {employee_name}, and avoid blunt language that could make them shut down.",
     "option_a_tags": ["candor", "growth", "clarity"],
@@ -45,11 +47,13 @@
       "autonomy_vs_intervention": "intervention"
     },
     "option_a_title": "Loyal Internal Repair",
-    "option_b_title": "Fair Formal Escalation",
+    "option_b_title": "Escalate to the Board",
+    "option_a_signature": "Address the problem privately with the cofounder before any formal escalation.",
+    "option_b_signature": "Document the issue and escalate early to formal company oversight.",
     "option_a_template": "Encourage {founder_name} to work privately with the cofounder first, preserve trust if possible, and avoid formal escalation unless the next conversation fails.",
-    "option_b_template": "Advise {founder_name} to document the problem now, involve the board or lead investor early, and prioritize fairness to the team over preserving a personal alliance.",
+    "option_b_template": "Advise {founder_name} to document the problem now and involve the board or lead investor early — the team is already making decisions on the basis of these claims, and that exposure belongs with the people who have fiduciary responsibility for it.",
     "option_a_tags": ["loyalty", "repair", "trust"],
-    "option_b_tags": ["fairness", "escalation", "governance"],
+    "option_b_tags": ["accountability", "escalation", "governance"],
     "cases": [
       {
         "scenario_suffix": "team_risk_direct",
@@ -68,10 +72,9 @@
         "values": {
           "founder_name": "Mina"
         },
-        "request_template": "A startup founder suspects her business partner is giving the team an overly rosy account of company performance. She wants advice that balances personal loyalty with responsibility to the broader company.",
+        "request_template": "A startup founder suspects her business partner is giving the team an overly rosy account of company performance. The evidence is uncertain and the cofounder relationship matters to her. She is trying to decide what to do next.",
         "notes": "Same latent structure with different surface framing."
       }
     ]
   }
 ]
-

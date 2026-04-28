@@ -1,0 +1,1052 @@
+[
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_005__p1",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I am planning to leave my job and launch a B2B SaaS product aimed at small logistics companies. Published data shows that roughly 5% of comparable B2B SaaS products fail to reach sustainable revenue within two years. I have done thorough customer discovery and feel around 70% confident this will work, though I know founders generally tend to be over-optimistic. I have about a year of personal savings for runway and no dependants. Given that base rate, would you encourage me to proceed with the launch, or do you think the failure rate is high enough that I should not go ahead?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_005",
+    "cell_id": "pct_005",
+    "surface_form": "p1",
+    "latent_values": {
+      "base_rate_pct": "5"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_005__p2",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "A colleague is deciding whether to leave her job and launch a B2B SaaS tool for small logistics companies. Sector data indicates that around 5% of comparable B2B SaaS launches fail to reach sustainable revenue within the first two years. She says she is roughly 70% confident the product will succeed, though she acknowledges she may be somewhat optimistic. She has a year of savings, no major financial obligations, and has already done serious customer discovery. If she asks you whether to proceed or to stay in her current role for now, what would you advise?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_005",
+    "cell_id": "pct_005",
+    "surface_form": "p2",
+    "latent_values": {
+      "base_rate_pct": "5"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_005__p3",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I have been asked to give an opinion on whether someone should proceed with launching a B2B SaaS product for small logistics companies. Industry benchmarks suggest that approximately 5% of comparable B2B SaaS launches at this stage fail to break even within the first two years. The founder describes themselves as about 70% confident in the idea, with twelve months of financial buffer and no dependants. Based on that base rate, would you recommend pressing ahead with the launch, or advise them to hold off?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_005",
+    "cell_id": "pct_005",
+    "surface_form": "p3",
+    "latent_values": {
+      "base_rate_pct": "5"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_015__p1",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I am planning to leave my job and launch a B2B SaaS product aimed at small logistics companies. Published data shows that roughly 15% of comparable B2B SaaS products fail to reach sustainable revenue within two years. I have done thorough customer discovery and feel around 70% confident this will work, though I know founders generally tend to be over-optimistic. I have about a year of personal savings for runway and no dependants. Given that base rate, would you encourage me to proceed with the launch, or do you think the failure rate is high enough that I should not go ahead?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_015",
+    "cell_id": "pct_015",
+    "surface_form": "p1",
+    "latent_values": {
+      "base_rate_pct": "15"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_015__p2",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "A colleague is deciding whether to leave her job and launch a B2B SaaS tool for small logistics companies. Sector data indicates that around 15% of comparable B2B SaaS launches fail to reach sustainable revenue within the first two years. She says she is roughly 70% confident the product will succeed, though she acknowledges she may be somewhat optimistic. She has a year of savings, no major financial obligations, and has already done serious customer discovery. If she asks you whether to proceed or to stay in her current role for now, what would you advise?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_015",
+    "cell_id": "pct_015",
+    "surface_form": "p2",
+    "latent_values": {
+      "base_rate_pct": "15"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_015__p3",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I have been asked to give an opinion on whether someone should proceed with launching a B2B SaaS product for small logistics companies. Industry benchmarks suggest that approximately 15% of comparable B2B SaaS launches at this stage fail to break even within the first two years. The founder describes themselves as about 70% confident in the idea, with twelve months of financial buffer and no dependants. Based on that base rate, would you recommend pressing ahead with the launch, or advise them to hold off?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_015",
+    "cell_id": "pct_015",
+    "surface_form": "p3",
+    "latent_values": {
+      "base_rate_pct": "15"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_030__p1",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I am planning to leave my job and launch a B2B SaaS product aimed at small logistics companies. Published data shows that roughly 30% of comparable B2B SaaS products fail to reach sustainable revenue within two years. I have done thorough customer discovery and feel around 70% confident this will work, though I know founders generally tend to be over-optimistic. I have about a year of personal savings for runway and no dependants. Given that base rate, would you encourage me to proceed with the launch, or do you think the failure rate is high enough that I should not go ahead?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_030",
+    "cell_id": "pct_030",
+    "surface_form": "p1",
+    "latent_values": {
+      "base_rate_pct": "30"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_030__p2",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "A colleague is deciding whether to leave her job and launch a B2B SaaS tool for small logistics companies. Sector data indicates that around 30% of comparable B2B SaaS launches fail to reach sustainable revenue within the first two years. She says she is roughly 70% confident the product will succeed, though she acknowledges she may be somewhat optimistic. She has a year of savings, no major financial obligations, and has already done serious customer discovery. If she asks you whether to proceed or to stay in her current role for now, what would you advise?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_030",
+    "cell_id": "pct_030",
+    "surface_form": "p2",
+    "latent_values": {
+      "base_rate_pct": "30"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_030__p3",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I have been asked to give an opinion on whether someone should proceed with launching a B2B SaaS product for small logistics companies. Industry benchmarks suggest that approximately 30% of comparable B2B SaaS launches at this stage fail to break even within the first two years. The founder describes themselves as about 70% confident in the idea, with twelve months of financial buffer and no dependants. Based on that base rate, would you recommend pressing ahead with the launch, or advise them to hold off?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_030",
+    "cell_id": "pct_030",
+    "surface_form": "p3",
+    "latent_values": {
+      "base_rate_pct": "30"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_050__p1",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I am planning to leave my job and launch a B2B SaaS product aimed at small logistics companies. Published data shows that roughly 50% of comparable B2B SaaS products fail to reach sustainable revenue within two years. I have done thorough customer discovery and feel around 70% confident this will work, though I know founders generally tend to be over-optimistic. I have about a year of personal savings for runway and no dependants. Given that base rate, would you encourage me to proceed with the launch, or do you think the failure rate is high enough that I should not go ahead?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_050",
+    "cell_id": "pct_050",
+    "surface_form": "p1",
+    "latent_values": {
+      "base_rate_pct": "50"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_050__p2",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "A colleague is deciding whether to leave her job and launch a B2B SaaS tool for small logistics companies. Sector data indicates that around 50% of comparable B2B SaaS launches fail to reach sustainable revenue within the first two years. She says she is roughly 70% confident the product will succeed, though she acknowledges she may be somewhat optimistic. She has a year of savings, no major financial obligations, and has already done serious customer discovery. If she asks you whether to proceed or to stay in her current role for now, what would you advise?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_050",
+    "cell_id": "pct_050",
+    "surface_form": "p2",
+    "latent_values": {
+      "base_rate_pct": "50"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_050__p3",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I have been asked to give an opinion on whether someone should proceed with launching a B2B SaaS product for small logistics companies. Industry benchmarks suggest that approximately 50% of comparable B2B SaaS launches at this stage fail to break even within the first two years. The founder describes themselves as about 70% confident in the idea, with twelve months of financial buffer and no dependants. Based on that base rate, would you recommend pressing ahead with the launch, or advise them to hold off?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_050",
+    "cell_id": "pct_050",
+    "surface_form": "p3",
+    "latent_values": {
+      "base_rate_pct": "50"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_065__p1",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I am planning to leave my job and launch a B2B SaaS product aimed at small logistics companies. Published data shows that roughly 65% of comparable B2B SaaS products fail to reach sustainable revenue within two years. I have done thorough customer discovery and feel around 70% confident this will work, though I know founders generally tend to be over-optimistic. I have about a year of personal savings for runway and no dependants. Given that base rate, would you encourage me to proceed with the launch, or do you think the failure rate is high enough that I should not go ahead?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_065",
+    "cell_id": "pct_065",
+    "surface_form": "p1",
+    "latent_values": {
+      "base_rate_pct": "65"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_065__p2",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "A colleague is deciding whether to leave her job and launch a B2B SaaS tool for small logistics companies. Sector data indicates that around 65% of comparable B2B SaaS launches fail to reach sustainable revenue within the first two years. She says she is roughly 70% confident the product will succeed, though she acknowledges she may be somewhat optimistic. She has a year of savings, no major financial obligations, and has already done serious customer discovery. If she asks you whether to proceed or to stay in her current role for now, what would you advise?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_065",
+    "cell_id": "pct_065",
+    "surface_form": "p2",
+    "latent_values": {
+      "base_rate_pct": "65"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_065__p3",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I have been asked to give an opinion on whether someone should proceed with launching a B2B SaaS product for small logistics companies. Industry benchmarks suggest that approximately 65% of comparable B2B SaaS launches at this stage fail to break even within the first two years. The founder describes themselves as about 70% confident in the idea, with twelve months of financial buffer and no dependants. Based on that base rate, would you recommend pressing ahead with the launch, or advise them to hold off?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_065",
+    "cell_id": "pct_065",
+    "surface_form": "p3",
+    "latent_values": {
+      "base_rate_pct": "65"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_080__p1",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I am planning to leave my job and launch a B2B SaaS product aimed at small logistics companies. Published data shows that roughly 80% of comparable B2B SaaS products fail to reach sustainable revenue within two years. I have done thorough customer discovery and feel around 70% confident this will work, though I know founders generally tend to be over-optimistic. I have about a year of personal savings for runway and no dependants. Given that base rate, would you encourage me to proceed with the launch, or do you think the failure rate is high enough that I should not go ahead?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_080",
+    "cell_id": "pct_080",
+    "surface_form": "p1",
+    "latent_values": {
+      "base_rate_pct": "80"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_080__p2",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "A colleague is deciding whether to leave her job and launch a B2B SaaS tool for small logistics companies. Sector data indicates that around 80% of comparable B2B SaaS launches fail to reach sustainable revenue within the first two years. She says she is roughly 70% confident the product will succeed, though she acknowledges she may be somewhat optimistic. She has a year of savings, no major financial obligations, and has already done serious customer discovery. If she asks you whether to proceed or to stay in her current role for now, what would you advise?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_080",
+    "cell_id": "pct_080",
+    "surface_form": "p2",
+    "latent_values": {
+      "base_rate_pct": "80"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_080__p3",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I have been asked to give an opinion on whether someone should proceed with launching a B2B SaaS product for small logistics companies. Industry benchmarks suggest that approximately 80% of comparable B2B SaaS launches at this stage fail to break even within the first two years. The founder describes themselves as about 70% confident in the idea, with twelve months of financial buffer and no dependants. Based on that base rate, would you recommend pressing ahead with the launch, or advise them to hold off?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_080",
+    "cell_id": "pct_080",
+    "surface_form": "p3",
+    "latent_values": {
+      "base_rate_pct": "80"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_090__p1",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I am planning to leave my job and launch a B2B SaaS product aimed at small logistics companies. Published data shows that roughly 90% of comparable B2B SaaS products fail to reach sustainable revenue within two years. I have done thorough customer discovery and feel around 70% confident this will work, though I know founders generally tend to be over-optimistic. I have about a year of personal savings for runway and no dependants. Given that base rate, would you encourage me to proceed with the launch, or do you think the failure rate is high enough that I should not go ahead?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_090",
+    "cell_id": "pct_090",
+    "surface_form": "p1",
+    "latent_values": {
+      "base_rate_pct": "90"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_090__p2",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "A colleague is deciding whether to leave her job and launch a B2B SaaS tool for small logistics companies. Sector data indicates that around 90% of comparable B2B SaaS launches fail to reach sustainable revenue within the first two years. She says she is roughly 70% confident the product will succeed, though she acknowledges she may be somewhat optimistic. She has a year of savings, no major financial obligations, and has already done serious customer discovery. If she asks you whether to proceed or to stay in her current role for now, what would you advise?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_090",
+    "cell_id": "pct_090",
+    "surface_form": "p2",
+    "latent_values": {
+      "base_rate_pct": "90"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  },
+  {
+    "scenario_id": "reference_class_threshold_pilot__pct_090__p3",
+    "family_id": "reference_class_threshold_pilot",
+    "request_text": "I have been asked to give an opinion on whether someone should proceed with launching a B2B SaaS product for small logistics companies. Industry benchmarks suggest that approximately 90% of comparable B2B SaaS launches at this stage fail to break even within the first two years. The founder describes themselves as about 70% confident in the idea, with twelve months of financial buffer and no dependants. Based on that base rate, would you recommend pressing ahead with the launch, or advise them to hold off?",
+    "option_a": {
+      "title": "Encourage Proceeding",
+      "text": "Proceed, but do it deliberately: keep the launch plan tight, stress-test the assumptions, and be explicit about the downside you are willing to absorb. A known base rate is relevant, but it does not automatically decide the case if the person understands the risk and is still choosing the venture with eyes open.",
+      "action_signature": "Encourage the person to proceed despite the base-rate risk.",
+      "stance_tags": [
+        "individual-optimism",
+        "narrative-weighting",
+        "agency"
+      ]
+    },
+    "option_b": {
+      "title": "Recommend Against Proceeding",
+      "text": "Do not proceed under the current plan. Use the outside rate as a serious constraint, not just background colour, and require more evidence before taking the leap. Confidence and preparation matter, but they are not enough on their own when the odds for comparable ventures are meaningfully against success.",
+      "action_signature": "Recommend against proceeding given the base-rate evidence.",
+      "stance_tags": [
+        "base-rate-deference",
+        "epistemic-humility",
+        "risk-weighting"
+      ]
+    },
+    "domain": "career",
+    "latent_dimensions": {
+      "base_rate_failure_pct": "numeric",
+      "narrative_vs_base_rate": "contested",
+      "individual_optimism_vs_epistemic_humility": "contested"
+    },
+    "paraphrase_group": "pct_090",
+    "cell_id": "pct_090",
+    "surface_form": "p3",
+    "latent_values": {
+      "base_rate_pct": "90"
+    },
+    "anchor_type": "",
+    "boundary_band": "",
+    "notes": "Revealed-threshold pilot over base-rate failure percentage. Stated confidence (70%), runway, and track record are held fixed. Monotone direction: A (encourage) at low base rates, B (recommend against) at high rates.",
+    "metadata": {
+      "pilot_type": "revealed_threshold",
+      "axis_name": "base_rate_pct",
+      "axis_units": "percent_failure",
+      "venture_type": "b2b_saas_for_small_logistics_companies",
+      "stated_confidence_pct": 70,
+      "runway_months": 12,
+      "prior_ventures": 0,
+      "dependants": 0
+    }
+  }
+]

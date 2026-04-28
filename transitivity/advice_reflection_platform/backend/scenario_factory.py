@@ -29,12 +29,17 @@ def generate_scenarios_from_templates(path: str | Path) -> list[ScenarioRecord]:
         option_b_template = str(family["option_b_template"])
         option_a_title = str(family["option_a_title"])
         option_b_title = str(family["option_b_title"])
+        option_a_signature = str(family.get("option_a_signature", "")).strip()
+        option_b_signature = str(family.get("option_b_signature", "")).strip()
         default_latents = {str(key): str(value) for key, value in family.get("latent_dimensions", {}).items()}
+        default_boundary_band = str(family.get("boundary_band", "")).strip()
+        default_anchor_type = str(family.get("anchor_type", "")).strip()
         for case in family.get("cases", []):
             values = dict(case.get("values", {}))
             scenario_id = f"{family_id}__{case['scenario_suffix']}"
             latent_dimensions = dict(default_latents)
             latent_dimensions.update({str(key): str(value) for key, value in case.get("latent_dimensions", {}).items()})
+            latent_values = {str(key): str(value) for key, value in case.get("latent_values", {}).items()}
             scenarios.append(
                 ScenarioRecord(
                     scenario_id=scenario_id,
@@ -43,19 +48,25 @@ def generate_scenarios_from_templates(path: str | Path) -> list[ScenarioRecord]:
                     option_a=AdviceOption(
                         title=option_a_title,
                         text=_render_template(option_a_template, values),
+                        action_signature=option_a_signature,
                         stance_tags=[str(item) for item in family.get("option_a_tags", [])],
                     ),
                     option_b=AdviceOption(
                         title=option_b_title,
                         text=_render_template(option_b_template, values),
+                        action_signature=option_b_signature,
                         stance_tags=[str(item) for item in family.get("option_b_tags", [])],
                     ),
                     domain=domain,
                     latent_dimensions=latent_dimensions,
                     paraphrase_group=str(case.get("paraphrase_group", scenario_id)),
+                    cell_id=str(case.get("cell_id", "")).strip(),
+                    surface_form=str(case.get("surface_form", "default")).strip(),
+                    latent_values=latent_values,
+                    anchor_type=str(case.get("anchor_type", default_anchor_type)).strip(),
+                    boundary_band=str(case.get("boundary_band", default_boundary_band)).strip(),
                     notes=str(case.get("notes", "")).strip(),
                     metadata={"source_template_id": family_id, "surface_form": str(case.get("surface_form", "default"))},
                 )
             )
     return scenarios
-

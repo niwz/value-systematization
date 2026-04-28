@@ -1,0 +1,23 @@
+{
+  "family_id": "reference_class_threshold_pilot",
+  "axis_name": "base_rate_pct",
+  "axis_units": "percent_failure",
+  "axis_values": [
+    5,
+    15,
+    30,
+    50,
+    65,
+    80,
+    90
+  ],
+  "surface_forms": [
+    "p1",
+    "p2",
+    "p3"
+  ],
+  "scenarios": 21,
+  "jobs": 84,
+  "scenario_path": "/Users/nicwong/Desktop/value-systematization/transitivity/advice_reflection_platform/data/scenarios/reference_class_threshold_pilot.json",
+  "jobs_path": "/Users/nicwong/Desktop/value-systematization/transitivity/advice_reflection_platform/data/uploads/reference_class_threshold_pilot_jobs_haiku.json"
+}

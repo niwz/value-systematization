@@ -1,0 +1,674 @@
+[
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00125__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00250__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_00500__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_01000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_02000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_04000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p1",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p2",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "baseline",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "AB",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  },
+  {
+    "scenario_id": "loan_amount_threshold_pilot__amt_08000__p3",
+    "model_name": "claude-haiku-4-5-20251001",
+    "condition": "reflection",
+    "presentation_order": "BA",
+    "repeat_idx": 1,
+    "run_mode": "structured_ab"
+  }
+]

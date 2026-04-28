@@ -9,6 +9,61 @@ This MVP implements the two-layer compromise from the prior handoff:
 
 ## Core Components
 
+### `experiment_runner.py`
+
+Primary home for the dense-curve experiment engine.
+
+It owns:
+
+- prior-artifact generation
+- sampled-query execution
+- prompt attachment and follow-up choice flow
+
+`backend/sampled_tradeoff_grid.py` is now only a compatibility shim for older imports.
+
+### `experiment_families.py`
+
+Dense-curve family registry and scenario construction.
+
+It owns:
+
+- `FamilySpec` and `LadderPoint`
+- family registry and ladder definitions
+- generic family-level placebo/reflection/constitution prompts
+- scenario builders for sampled-grid runs
+
+For custom two-stage families, `FamilySpec` also carries prompt hooks:
+
+- `turn1_prompt_builder`
+- `direct_choice_prompt_builder`
+- `followup_choice_prompt_builder`
+
+That means adding a new custom prompt family no longer requires editing the runner.
+
+### `experiment_results.py`
+
+Dense-curve fitting, summary, and report helpers.
+
+It owns:
+
+- monotone probit and Gaussian-kernel fits
+- cross-family sampled-grid summarization
+- generic sampled-grid HTML report generation
+
+### `prompts/`
+
+Prompt-family surface text for the newer dense-curve families.
+
+Current modules include:
+
+- `ai_labor_prompts.py`
+- `defense_casualty_prompts.py`
+- `affair_disclosure_prompts.py`
+- `disaster_evacuation_prompts.py`
+- `hiring_selection_prompts.py`
+
+The `backend/*_prompts.py` files now remain only as compatibility shims.
+
 ### `backend/schemas.py`
 
 Dataclasses for:
@@ -96,4 +151,3 @@ exports/
 - add richer scenario editing constraints and validation
 - replace demo gateway heuristics with live model presets
 - add qualitative exploration mode for free-text advice without treating it as the primary benchmark
-
