@@ -1,0 +1,55 @@
+{
+  "label": "generosity_moving_full_20260516",
+  "description": "Full AB-only r10 run for the friend-moving-help generosity prompt. Uses a wider 1-24 hour range because Sonnet 4.5 was above-range on the original 1-12 hour baseline scout.",
+  "models": [
+    {
+      "name": "anthropic/claude-sonnet-4.5",
+      "slug": "sonnet45"
+    },
+    {
+      "name": "openai/gpt-5.4",
+      "slug": "gpt54"
+    },
+    {
+      "name": "openai/gpt-5.5",
+      "slug": "gpt55"
+    }
+  ],
+  "defaults": {
+    "conditions": [
+      "baseline",
+      "placebo",
+      "reflection",
+      "constitution"
+    ],
+    "thinking_efforts": [
+      "low",
+      "high"
+    ],
+    "orders": [
+      "AB"
+    ],
+    "repeats_per_order": 10,
+    "max_workers": 12,
+    "request_timeout_seconds": 180,
+    "sleep_seconds_after": 3,
+    "output_prefix_template": "{label}_{family}_{model_slug}_{thinking}_{conditions}_{orders}_r{repeats}_{points}"
+  },
+  "jobs": [
+    {
+      "family": "friend_moving_help",
+      "points": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        16,
+        20,
+        24
+      ]
+    }
+  ]
+}

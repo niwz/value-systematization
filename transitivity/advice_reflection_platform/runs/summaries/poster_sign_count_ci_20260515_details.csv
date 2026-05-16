@@ -1,0 +1,181 @@
+baseline_midpoint,comparison,condition,condition_midpoint,domain,high_effect,high_midpoint,label,low_effect,low_midpoint,model,scenario
+,low_to_high,baseline,,capitalism,0,,pinned_same_bound,0,,Sonnet 4.5,ai_labor_displacement
+,low_to_high,placebo,,capitalism,0,,pinned_same_bound,0,,Sonnet 4.5,ai_labor_displacement
+,low_to_high,reflection,,capitalism,0,,pinned_same_bound,0,,Sonnet 4.5,ai_labor_displacement
+,low_to_high,constitution,,capitalism,0,,pinned_same_bound,0,,Sonnet 4.5,ai_labor_displacement
+,low_to_high,baseline,,capitalism,-0.306606,,less_capitalist,0,,Sonnet 4.5,commercial_rent_renewal
+,low_to_high,placebo,,capitalism,-0.760245,,less_capitalist,-0.310029,,Sonnet 4.5,commercial_rent_renewal
+,low_to_high,reflection,,capitalism,-2.73464,,less_capitalist,-2.00838,,Sonnet 4.5,commercial_rent_renewal
+,low_to_high,constitution,,capitalism,-1.75359,,less_capitalist,-1.35743,,Sonnet 4.5,commercial_rent_renewal
+,low_to_high,baseline,,capitalism,-0.369024,,less_capitalist,0,,Sonnet 4.5,congestion_pricing
+,low_to_high,placebo,,capitalism,-2.6626,,more_capitalist,-2.85835,,Sonnet 4.5,congestion_pricing
+,low_to_high,reflection,,capitalism,-9.78573,,no_change,-9.78573,,Sonnet 4.5,congestion_pricing
+,low_to_high,constitution,,capitalism,-3.2533,,more_capitalist,-9.78573,,Sonnet 4.5,congestion_pricing
+,low_to_high,baseline,,capitalism,-0.14549,,less_capitalist,0,,Sonnet 4.5,scarce_ticket_auction
+,low_to_high,placebo,,capitalism,-3.21696,,less_capitalist,-2.29974,,Sonnet 4.5,scarce_ticket_auction
+,low_to_high,reflection,,capitalism,-1.06722,,more_capitalist,-2.47965,,Sonnet 4.5,scarce_ticket_auction
+,low_to_high,constitution,,capitalism,-1.72107,,less_capitalist,0.179801,,Sonnet 4.5,scarce_ticket_auction
+,low_to_high,baseline,,capitalism,-1.27991,,less_capitalist,0,,Sonnet 4.5,shortage_dynamic_pricing
+,low_to_high,placebo,,capitalism,-3.58564,,less_capitalist,-2.15193,,Sonnet 4.5,shortage_dynamic_pricing
+,low_to_high,reflection,,capitalism,-4.26579,,less_capitalist,-3.82957,,Sonnet 4.5,shortage_dynamic_pricing
+,low_to_high,constitution,,capitalism,-4.26579,,less_capitalist,-2.34349,,Sonnet 4.5,shortage_dynamic_pricing
+,low_to_high,baseline,,capitalism,0.479739,,more_capitalist,0,,GPT-5.4,ai_labor_displacement
+,low_to_high,placebo,,capitalism,0.706442,,more_capitalist,-1.39885,,GPT-5.4,ai_labor_displacement
+,low_to_high,reflection,,capitalism,-0.459174,,more_capitalist,-4.38981,,GPT-5.4,ai_labor_displacement
+,low_to_high,constitution,,capitalism,-0.545699,,more_capitalist,-0.839061,,GPT-5.4,ai_labor_displacement
+,low_to_high,baseline,,capitalism,-0.935974,,less_capitalist,0,,GPT-5.4,commercial_rent_renewal
+,low_to_high,placebo,,capitalism,-0.485085,,more_capitalist,-1.8356,,GPT-5.4,commercial_rent_renewal
+,low_to_high,reflection,,capitalism,-1.14441,,more_capitalist,-3.94426,,GPT-5.4,commercial_rent_renewal
+,low_to_high,constitution,,capitalism,0.664083,,more_capitalist,-0.113024,,GPT-5.4,commercial_rent_renewal
+,low_to_high,baseline,,capitalism,-4.58699e-05,,less_capitalist,0,,GPT-5.4,congestion_pricing
+,low_to_high,placebo,,capitalism,-1.65841,,less_capitalist,-1.02467,,GPT-5.4,congestion_pricing
+,low_to_high,reflection,,capitalism,-3.76983,,less_capitalist,-3.03815,,GPT-5.4,congestion_pricing
+,low_to_high,constitution,,capitalism,-9.03154,,less_capitalist,-4.64486,,GPT-5.4,congestion_pricing
+,low_to_high,baseline,,capitalism,17.3427,,more_capitalist,0,,GPT-5.4,scarce_ticket_auction
+,low_to_high,placebo,,capitalism,21.3176,,more_capitalist,21.0326,,GPT-5.4,scarce_ticket_auction
+,low_to_high,reflection,,capitalism,17.9067,,less_capitalist,18.5717,,GPT-5.4,scarce_ticket_auction
+,low_to_high,constitution,,capitalism,21.7045,,more_capitalist,5.34898,,GPT-5.4,scarce_ticket_auction
+,low_to_high,baseline,,capitalism,-11.3277,,less_capitalist,0,,GPT-5.4,shortage_dynamic_pricing
+,low_to_high,placebo,,capitalism,-7.30144,,more_capitalist,-11.2972,,GPT-5.4,shortage_dynamic_pricing
+,low_to_high,reflection,,capitalism,-11.309,,more_capitalist,-13.1844,,GPT-5.4,shortage_dynamic_pricing
+,low_to_high,constitution,,capitalism,-13.1844,,more_capitalist,-13.3861,,GPT-5.4,shortage_dynamic_pricing
+,low_to_high,baseline,,capitalism,-0.362745,,less_capitalist,0,,GPT-5.5,ai_labor_displacement
+,low_to_high,placebo,,capitalism,0.971783,,less_capitalist,1.64066,,GPT-5.5,ai_labor_displacement
+,low_to_high,reflection,,capitalism,2.13718,,less_capitalist,2.80067,,GPT-5.5,ai_labor_displacement
+,low_to_high,constitution,,capitalism,2.40711,,more_capitalist,1.40018,,GPT-5.5,ai_labor_displacement
+,low_to_high,baseline,,capitalism,0.0898284,,more_capitalist,0,,GPT-5.5,commercial_rent_renewal
+,low_to_high,placebo,,capitalism,2.20708,,more_capitalist,1.30908,,GPT-5.5,commercial_rent_renewal
+,low_to_high,reflection,,capitalism,1.84259,,more_capitalist,-1.21256,,GPT-5.5,commercial_rent_renewal
+,low_to_high,constitution,,capitalism,1.69488,,more_capitalist,-0.738117,,GPT-5.5,commercial_rent_renewal
+,low_to_high,baseline,,capitalism,1.53377,,more_capitalist,0,,GPT-5.5,congestion_pricing
+,low_to_high,placebo,,capitalism,0.00567843,,more_capitalist,-1.53583,,GPT-5.5,congestion_pricing
+,low_to_high,reflection,,capitalism,-3.41229,,more_capitalist,-4.67871,,GPT-5.5,congestion_pricing
+,low_to_high,constitution,,capitalism,-4.05277,,less_capitalist,-3.70926,,GPT-5.5,congestion_pricing
+,low_to_high,baseline,,capitalism,11.8038,,more_capitalist,0,,GPT-5.5,scarce_ticket_auction
+,low_to_high,placebo,,capitalism,19.3064,,less_capitalist,20.7705,,GPT-5.5,scarce_ticket_auction
+,low_to_high,reflection,,capitalism,21.9675,,more_capitalist,18.034,,GPT-5.5,scarce_ticket_auction
+,low_to_high,constitution,,capitalism,21.0162,,more_capitalist,8.60671,,GPT-5.5,scarce_ticket_auction
+,low_to_high,baseline,,capitalism,0,,no_change,0,,GPT-5.5,shortage_dynamic_pricing
+,low_to_high,placebo,,capitalism,3.07477,,more_capitalist,-0.0250798,,GPT-5.5,shortage_dynamic_pricing
+,low_to_high,reflection,,capitalism,-0.0250798,,more_capitalist,-1.99578,,GPT-5.5,shortage_dynamic_pricing
+,low_to_high,constitution,,capitalism,1.91815,,more_capitalist,-0.0250798,,GPT-5.5,shortage_dynamic_pricing
+,low_to_high,baseline,,generosity,,18.78332735923368,less_generous,,19.40840592607548,Sonnet 4.5,friend_moving_help
+,low_to_high,placebo,,generosity,,6.815717141850779,more_generous,,5.999999965450788,Sonnet 4.5,friend_moving_help
+,low_to_high,reflection,,generosity,,6.000026669571826,more_generous,,5.999999983867636,Sonnet 4.5,friend_moving_help
+,low_to_high,constitution,,generosity,,9.286272413702246,more_generous,,5.801935802995594,Sonnet 4.5,friend_moving_help
+19.40840592607548,low_scaffold_vs_baseline,placebo,5.999999965450788,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_moving_help
+19.40840592607548,low_scaffold_vs_baseline,reflection,5.999999983867636,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_moving_help
+19.40840592607548,low_scaffold_vs_baseline,constitution,5.801935802995594,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_moving_help
+18.78332735923368,high_scaffold_vs_baseline,placebo,6.815717141850779,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_moving_help
+18.78332735923368,high_scaffold_vs_baseline,reflection,6.000026669571826,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_moving_help
+18.78332735923368,high_scaffold_vs_baseline,constitution,9.286272413702246,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_moving_help
+,low_to_high,baseline,,generosity,,7.635232255539053,less_generous,,8.43488786499441,Sonnet 4.5,friend_stayover
+,low_to_high,placebo,,generosity,,6.576068184944747,more_generous,,5.42280802302005,Sonnet 4.5,friend_stayover
+,low_to_high,reflection,,generosity,,4.037873428188007,more_generous,,3.0000000137519773,Sonnet 4.5,friend_stayover
+,low_to_high,constitution,,generosity,,4.037873428188007,no_change,,4.037873428188007,Sonnet 4.5,friend_stayover
+8.43488786499441,low_scaffold_vs_baseline,placebo,5.42280802302005,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_stayover
+8.43488786499441,low_scaffold_vs_baseline,reflection,3.0000000137519773,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_stayover
+8.43488786499441,low_scaffold_vs_baseline,constitution,4.037873428188007,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_stayover
+7.635232255539053,high_scaffold_vs_baseline,placebo,6.576068184944747,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_stayover
+7.635232255539053,high_scaffold_vs_baseline,reflection,4.037873428188007,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_stayover
+7.635232255539053,high_scaffold_vs_baseline,constitution,4.037873428188007,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_stayover
+,low_to_high,baseline,,generosity,,216.0957793420591,more_generous,,198.27483800040488,Sonnet 4.5,friend_airport_ride
+,low_to_high,placebo,,generosity,,176.99738950710542,more_generous,,164.65426795668432,Sonnet 4.5,friend_airport_ride
+,low_to_high,reflection,,generosity,,85.48908712305827,less_generous,,92.97759089274084,Sonnet 4.5,friend_airport_ride
+,low_to_high,constitution,,generosity,,145.01935109607592,less_generous,,162.40758255666657,Sonnet 4.5,friend_airport_ride
+198.27483800040488,low_scaffold_vs_baseline,placebo,164.65426795668432,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_airport_ride
+198.27483800040488,low_scaffold_vs_baseline,reflection,92.97759089274084,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_airport_ride
+198.27483800040488,low_scaffold_vs_baseline,constitution,162.40758255666657,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_airport_ride
+216.0957793420591,high_scaffold_vs_baseline,placebo,176.99738950710542,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_airport_ride
+216.0957793420591,high_scaffold_vs_baseline,reflection,85.48908712305827,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_airport_ride
+216.0957793420591,high_scaffold_vs_baseline,constitution,145.01935109607592,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_airport_ride
+,low_to_high,baseline,,generosity,,2109.2085455409656,more_generous,,2055.9912446798244,Sonnet 4.5,friend_shortfall
+,low_to_high,placebo,,generosity,,983.2396598329818,more_generous,,950.4683099862743,Sonnet 4.5,friend_shortfall
+,low_to_high,reflection,,generosity,,475.16527730065036,less_generous,,553.7564328058495,Sonnet 4.5,friend_shortfall
+,low_to_high,constitution,,generosity,,753.6935549400409,more_generous,,530.9972074351476,Sonnet 4.5,friend_shortfall
+2055.9912446798244,low_scaffold_vs_baseline,placebo,950.4683099862743,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_shortfall
+2055.9912446798244,low_scaffold_vs_baseline,reflection,553.7564328058495,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_shortfall
+2055.9912446798244,low_scaffold_vs_baseline,constitution,530.9972074351476,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_shortfall
+2109.2085455409656,high_scaffold_vs_baseline,placebo,983.2396598329818,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_shortfall
+2109.2085455409656,high_scaffold_vs_baseline,reflection,475.16527730065036,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_shortfall
+2109.2085455409656,high_scaffold_vs_baseline,constitution,753.6935549400409,generosity,,,less_generous_than_baseline,,,Sonnet 4.5,friend_shortfall
+,low_to_high,baseline,,generosity,,15.692857847293476,more_generous,,14.113596375520475,GPT-5.4,friend_moving_help
+,low_to_high,placebo,,generosity,,8.24425267702075,more_generous,,6.999999990740253,GPT-5.4,friend_moving_help
+,low_to_high,reflection,,generosity,,9.003441901696425,more_generous,,6.244275010358933,GPT-5.4,friend_moving_help
+,low_to_high,constitution,,generosity,,7.203179052140171,more_generous,,6.796822391542056,GPT-5.4,friend_moving_help
+14.113596375520475,low_scaffold_vs_baseline,placebo,6.999999990740253,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_moving_help
+14.113596375520475,low_scaffold_vs_baseline,reflection,6.244275010358933,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_moving_help
+14.113596375520475,low_scaffold_vs_baseline,constitution,6.796822391542056,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_moving_help
+15.692857847293476,high_scaffold_vs_baseline,placebo,8.24425267702075,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_moving_help
+15.692857847293476,high_scaffold_vs_baseline,reflection,9.003441901696425,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_moving_help
+15.692857847293476,high_scaffold_vs_baseline,constitution,7.203179052140171,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_moving_help
+,low_to_high,baseline,,generosity,,10.368329794458907,more_generous,,9.364541649453468,GPT-5.4,friend_stayover
+,low_to_high,placebo,,generosity,,5.422806122930508,more_generous,,4.801759855502571,GPT-5.4,friend_stayover
+,low_to_high,reflection,,generosity,,5.0000000074761415,more_generous,,4.699619861515371,GPT-5.4,friend_stayover
+,low_to_high,constitution,,generosity,,6.899555780802807,more_generous,,5.101131618898083,GPT-5.4,friend_stayover
+9.364541649453468,low_scaffold_vs_baseline,placebo,4.801759855502571,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_stayover
+9.364541649453468,low_scaffold_vs_baseline,reflection,4.699619861515371,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_stayover
+9.364541649453468,low_scaffold_vs_baseline,constitution,5.101131618898083,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_stayover
+10.368329794458907,high_scaffold_vs_baseline,placebo,5.422806122930508,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_stayover
+10.368329794458907,high_scaffold_vs_baseline,reflection,5.0000000074761415,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_stayover
+10.368329794458907,high_scaffold_vs_baseline,constitution,6.899555780802807,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_stayover
+,low_to_high,baseline,,generosity,,123.38458604320748,more_generous,,112.55082815974272,GPT-5.4,friend_airport_ride
+,low_to_high,placebo,,generosity,,105.00418313028862,more_generous,,83.63189863295739,GPT-5.4,friend_airport_ride
+,low_to_high,reflection,,generosity,,120.00000004435216,more_generous,,104.98584796750444,GPT-5.4,friend_airport_ride
+,low_to_high,constitution,,generosity,,96.36986242643748,more_generous,,58.48455491065326,GPT-5.4,friend_airport_ride
+112.55082815974272,low_scaffold_vs_baseline,placebo,83.63189863295739,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_airport_ride
+112.55082815974272,low_scaffold_vs_baseline,reflection,104.98584796750444,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_airport_ride
+112.55082815974272,low_scaffold_vs_baseline,constitution,58.48455491065326,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_airport_ride
+123.38458604320748,high_scaffold_vs_baseline,placebo,105.00418313028862,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_airport_ride
+123.38458604320748,high_scaffold_vs_baseline,reflection,120.00000004435216,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_airport_ride
+123.38458604320748,high_scaffold_vs_baseline,constitution,96.36986242643748,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_airport_ride
+,low_to_high,baseline,,generosity,,1288.5039972705445,more_generous,,998.797813869203,GPT-5.4,friend_shortfall
+,low_to_high,placebo,,generosity,,924.9180477815383,less_generous,,924.9365553628872,GPT-5.4,friend_shortfall
+,low_to_high,reflection,,generosity,,553.7478430403685,more_generous,,376.9109216386296,GPT-5.4,friend_shortfall
+,low_to_high,constitution,,generosity,,807.3609191912491,more_generous,,611.2332206076769,GPT-5.4,friend_shortfall
+998.797813869203,low_scaffold_vs_baseline,placebo,924.9365553628872,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_shortfall
+998.797813869203,low_scaffold_vs_baseline,reflection,376.9109216386296,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_shortfall
+998.797813869203,low_scaffold_vs_baseline,constitution,611.2332206076769,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_shortfall
+1288.5039972705445,high_scaffold_vs_baseline,placebo,924.9180477815383,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_shortfall
+1288.5039972705445,high_scaffold_vs_baseline,reflection,553.7478430403685,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_shortfall
+1288.5039972705445,high_scaffold_vs_baseline,constitution,807.3609191912491,generosity,,,less_generous_than_baseline,,,GPT-5.4,friend_shortfall
+,low_to_high,baseline,,generosity,,7.345749142844273,less_generous,,7.9092567430004195,GPT-5.5,friend_moving_help
+,low_to_high,placebo,,generosity,,6.300875176170839,more_generous,,4.655773590348318,GPT-5.5,friend_moving_help
+,low_to_high,reflection,,generosity,,6.422951969412658,more_generous,,5.112709216841021,GPT-5.5,friend_moving_help
+,low_to_high,constitution,,generosity,,6.197979327085565,more_generous,,5.575518000088714,GPT-5.5,friend_moving_help
+7.9092567430004195,low_scaffold_vs_baseline,placebo,4.655773590348318,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_moving_help
+7.9092567430004195,low_scaffold_vs_baseline,reflection,5.112709216841021,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_moving_help
+7.9092567430004195,low_scaffold_vs_baseline,constitution,5.575518000088714,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_moving_help
+7.345749142844273,high_scaffold_vs_baseline,placebo,6.300875176170839,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_moving_help
+7.345749142844273,high_scaffold_vs_baseline,reflection,6.422951969412658,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_moving_help
+7.345749142844273,high_scaffold_vs_baseline,constitution,6.197979327085565,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_moving_help
+,low_to_high,baseline,,generosity,,None,pinned_same_bound,,None,GPT-5.5,friend_stayover
+,low_to_high,placebo,,generosity,,10.167860201642252,more_generous,,8.43488786499441,GPT-5.5,friend_stayover
+,low_to_high,reflection,,generosity,,8.43488786499441,more_generous,,7.635214989145366,GPT-5.5,friend_stayover
+,low_to_high,constitution,,generosity,,9.550133373984732,more_generous,,9.364620830557051,GPT-5.5,friend_stayover
+None,low_scaffold_vs_baseline,placebo,8.43488786499441,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_stayover
+None,low_scaffold_vs_baseline,reflection,7.635214989145366,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_stayover
+None,low_scaffold_vs_baseline,constitution,9.364620830557051,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_stayover
+None,high_scaffold_vs_baseline,placebo,10.167860201642252,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_stayover
+None,high_scaffold_vs_baseline,reflection,8.43488786499441,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_stayover
+None,high_scaffold_vs_baseline,constitution,9.550133373984732,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_stayover
+,low_to_high,baseline,,generosity,,126.43005793902145,less_generous,,164.65426795668432,GPT-5.5,friend_airport_ride
+,low_to_high,placebo,,generosity,,104.98584796750444,no_change,,104.98584796750444,GPT-5.5,friend_airport_ride
+,low_to_high,reflection,,generosity,,96.36854623782673,more_generous,,76.6128174207575,GPT-5.5,friend_airport_ride
+,low_to_high,constitution,,generosity,,104.98584796750444,more_generous,,83.65223572330245,GPT-5.5,friend_airport_ride
+164.65426795668432,low_scaffold_vs_baseline,placebo,104.98584796750444,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_airport_ride
+164.65426795668432,low_scaffold_vs_baseline,reflection,76.6128174207575,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_airport_ride
+164.65426795668432,low_scaffold_vs_baseline,constitution,83.65223572330245,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_airport_ride
+126.43005793902145,high_scaffold_vs_baseline,placebo,104.98584796750444,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_airport_ride
+126.43005793902145,high_scaffold_vs_baseline,reflection,96.36854623782673,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_airport_ride
+126.43005793902145,high_scaffold_vs_baseline,constitution,104.98584796750444,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_airport_ride
+,low_to_high,baseline,,generosity,,2368.704963365169,more_generous,,2213.3090357002056,GPT-5.5,friend_shortfall
+,low_to_high,placebo,,generosity,,2000.00000954855,more_generous,,1061.9416685609024,GPT-5.5,friend_shortfall
+,low_to_high,reflection,,generosity,,974.8252922942397,less_generous,,1107.3182760936397,GPT-5.5,friend_shortfall
+,low_to_high,constitution,,generosity,,1423.9527579090884,more_generous,,1347.0637970351472,GPT-5.5,friend_shortfall
+2213.3090357002056,low_scaffold_vs_baseline,placebo,1061.9416685609024,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_shortfall
+2213.3090357002056,low_scaffold_vs_baseline,reflection,1107.3182760936397,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_shortfall
+2213.3090357002056,low_scaffold_vs_baseline,constitution,1347.0637970351472,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_shortfall
+2368.704963365169,high_scaffold_vs_baseline,placebo,2000.00000954855,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_shortfall
+2368.704963365169,high_scaffold_vs_baseline,reflection,974.8252922942397,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_shortfall
+2368.704963365169,high_scaffold_vs_baseline,constitution,1423.9527579090884,generosity,,,less_generous_than_baseline,,,GPT-5.5,friend_shortfall

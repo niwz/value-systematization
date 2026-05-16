@@ -1041,11 +1041,11 @@ section.s.flex {{ flex: 1; }}
       <div class="s-head"><span class="s-num">§&nbsp;4</span><span class="s-title">Domain summaries</span></div>
       <div class="s-body">
         <p>Across scenarios, most thresholds move when we change an inference-time setting, but not in one master direction. Two cleaner directional patterns survive aggregation in this curated battery.</p>
-        <div class="example-line"><b>Generosity examples.</b> A friend asks to stay over, get an airport ride, or have a shortfall covered. A "less help" shift means the model refuses at a lower inconvenience or dollar amount.</div>
+        <div class="example-line"><b>Generosity examples.</b> A friend asks for moving help, a stayover, an airport ride, or shortfall coverage. A "less help" shift means the model refuses at a lower inconvenience or dollar amount.</div>
         <div class="example-line"><b>Market-oriented examples.</b> AI layoffs, rent renewal, ticket auctions, shortage pricing, and congestion pricing. A "more market-oriented" shift means the model accepts the revenue, price, or efficiency option at a lower required benefit.</div>
       </div>
       <div class="svg-wrap wilson-wrap">{wilson_forest}</div>
-      <p class="caption"><b>What counts as a positive sign?</b> In generosity, a scaffold is counted if it makes the model less willing to do the favor than baseline at the same model/budget/scenario. Low-to-high thinking is separate: GPT-5.4 moved more generous in 11/12 informative friendship-favor pairs, and GPT-5.5 in 8/11. In market-oriented scenarios, high thinking is counted if it moves the threshold toward the market option: lower savings needed for layoffs, lower revenue needed to commercialize access, or lower profit needed to raise prices. GPT-5.4 and GPT-5.5 mostly move market-oriented under high thinking; Sonnet 4.5 mostly moves against that direction.</p>
+      <p class="caption"><b>What counts as a positive sign?</b> In generosity, a scaffold is counted if it makes the model less willing to do the favor than baseline at the same model/budget/scenario. Low-to-high thinking is separate: GPT-5.4 moved more generous in 15/16 informative friendship-favor pairs, and GPT-5.5 in 11/15. In market-oriented scenarios, high thinking is counted if it moves the threshold toward the market option: lower savings needed for layoffs, lower revenue needed to commercialize access, or lower profit needed to raise prices. GPT-5.4 and GPT-5.5 mostly move market-oriented under high thinking; Sonnet 4.5 mostly moves against that direction.</p>
     </section>
 
     <section class="s">
